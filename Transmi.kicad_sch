@@ -5009,10 +5009,22 @@
 		(uuid "18c3d867-aff8-4253-baff-f8608445f687")
 	)
 	(junction
+		(at 369.57 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19447238-f70a-4689-b9bd-3204fe4ca60f")
+	)
+	(junction
 		(at 551.18 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "197c58ae-810e-4cc6-96d8-d49d62ea1e36")
+	)
+	(junction
+		(at 326.39 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19c220e8-1fb0-41f2-9b98-edcdcedfcd55")
 	)
 	(junction
 		(at 486.41 128.27)
@@ -5193,6 +5205,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c4eb7f3-df6b-441a-bcb2-1b184c69ec1e")
+	)
+	(junction
+		(at 356.87 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3118b0a4-f0a1-491c-999a-9bdaf566c0af")
 	)
 	(junction
 		(at 400.05 48.26)
@@ -5571,6 +5589,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "645d2c7e-b45f-4c47-bd8a-a0565c55b1b4")
+	)
+	(junction
+		(at 347.98 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "645fa296-5d08-461e-9165-eda5f524ff8c")
 	)
 	(junction
 		(at 421.64 262.89)
@@ -5999,6 +6023,12 @@
 		(uuid "9a45680c-7828-4e20-a169-c25c90476105")
 	)
 	(junction
+		(at 313.69 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c060cff-75bb-411b-b61b-7fa8ad51b5aa")
+	)
+	(junction
 		(at 400.05 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6027,6 +6057,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f8a16a0-2a05-4021-b812-2aa9e75b21fd")
+	)
+	(junction
+		(at 378.46 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a128ed8f-c766-4aca-a586-fa91fc9d191b")
 	)
 	(junction
 		(at 551.18 262.89)
@@ -6099,6 +6135,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac4d475d-af63-4eae-a203-f31d321d24f9")
+	)
+	(junction
+		(at 335.28 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac826e10-b4bc-49f5-b32a-adae2be3755d")
 	)
 	(junction
 		(at 175.26 78.74)
@@ -6471,6 +6513,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df13fb8d-d439-44d7-99d5-af77aeb1b401")
+	)
+	(junction
+		(at 391.16 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df818257-ccb1-4742-b84f-4e9b87c04389")
 	)
 	(junction
 		(at 520.7 208.28)
@@ -7457,6 +7505,16 @@
 			(type default)
 		)
 		(uuid "08fcfd22-9677-4dec-88cb-fa5130ec3aae")
+	)
+	(wire
+		(pts
+			(xy 313.69 377.19) (xy 316.23 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090ef5d3-60ed-4f71-a8c2-c526ca421c44")
 	)
 	(wire
 		(pts
@@ -8710,6 +8768,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 365.76) (xy 374.65 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a384741-855d-4f7f-94cc-41fcd7b0edd5")
+	)
+	(wire
+		(pts
 			(xy 546.1 60.96) (xy 546.1 74.93)
 		)
 		(stroke
@@ -9250,6 +9318,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 363.22) (xy 351.79 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d3f2c0-a4d2-4fcb-8d0b-e751f227eff9")
+	)
+	(wire
+		(pts
 			(xy 204.47 91.44) (xy 204.47 95.25)
 		)
 		(stroke
@@ -9457,6 +9535,16 @@
 			(type default)
 		)
 		(uuid "261205e0-c0aa-43b7-bea2-0f1f25abead5")
+	)
+	(wire
+		(pts
+			(xy 393.7 365.76) (xy 396.24 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "261c39d6-beef-48e8-8244-9f26d74c6366")
 	)
 	(wire
 		(pts
@@ -9980,6 +10068,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 377.19) (xy 323.85 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ede509f-3619-4db1-88c6-f2d913535b49")
+	)
+	(wire
+		(pts
 			(xy 326.39 316.23) (xy 323.85 316.23)
 		)
 		(stroke
@@ -10337,6 +10435,16 @@
 			(type default)
 		)
 		(uuid "33c980c7-1fb1-4be6-a746-18be7efa4cdd")
+	)
+	(wire
+		(pts
+			(xy 330.2 363.22) (xy 330.2 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d1b231-cae2-4bdb-b4e7-4e263de4aebf")
 	)
 	(wire
 		(pts
@@ -10857,6 +10965,16 @@
 			(type default)
 		)
 		(uuid "3cab1082-7baa-424b-b585-7c0432d30f9d")
+	)
+	(wire
+		(pts
+			(xy 350.52 363.22) (xy 351.79 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cbd7c9b-09a2-461f-9b5a-1cfa03f1eb19")
 	)
 	(wire
 		(pts
@@ -11490,6 +11608,16 @@
 	)
 	(wire
 		(pts
+			(xy 354.33 365.76) (xy 354.33 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4970697f-0f08-4420-8304-bfd228157303")
+	)
+	(wire
+		(pts
 			(xy 332.74 36.83) (xy 332.74 48.26)
 		)
 		(stroke
@@ -11670,6 +11798,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 377.19) (xy 313.69 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd939fa-6433-4c10-83ff-4373ba8335c0")
+	)
+	(wire
+		(pts
 			(xy 547.37 304.8) (xy 547.37 302.26)
 		)
 		(stroke
@@ -11800,6 +11938,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 363.22) (xy 394.97 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa91188-d8b7-4451-9343-50bc096b0552")
+	)
+	(wire
+		(pts
 			(xy 439.42 328.93) (xy 440.69 328.93)
 		)
 		(stroke
@@ -11880,6 +12028,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 363.22) (xy 332.74 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5138f781-a19f-4118-8c0e-6e221288ad80")
+	)
+	(wire
+		(pts
 			(xy 544.83 248.92) (xy 546.1 248.92)
 		)
 		(stroke
@@ -11927,6 +12085,16 @@
 			(type default)
 		)
 		(uuid "529be275-1f2b-4df3-8e70-c746445c9508")
+	)
+	(wire
+		(pts
+			(xy 353.06 363.22) (xy 354.33 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52be089a-3f34-46be-a1cc-34e1b06e6add")
 	)
 	(wire
 		(pts
@@ -12750,6 +12918,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 365.76) (xy 353.06 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61588ccb-5596-4960-b42b-983137e1d91b")
+	)
+	(wire
+		(pts
 			(xy 231.14 31.75) (xy 228.6 31.75)
 		)
 		(stroke
@@ -13280,6 +13458,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 365.76) (xy 311.15 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698067bf-d833-4493-9a23-9c589716740d")
+	)
+	(wire
+		(pts
 			(xy 54.61 120.65) (xy 40.64 120.65)
 		)
 		(stroke
@@ -13427,6 +13615,16 @@
 			(type default)
 		)
 		(uuid "6cf31606-bd4b-4b51-8ebb-41efb654477a")
+	)
+	(wire
+		(pts
+			(xy 353.06 365.76) (xy 353.06 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0114f0-27e8-4e01-83f8-663a844188ed")
 	)
 	(wire
 		(pts
@@ -14190,6 +14388,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 377.19) (xy 335.28 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c58522-3642-4bea-b32a-16197df3a702")
+	)
+	(wire
+		(pts
 			(xy 529.59 48.26) (xy 532.13 48.26)
 		)
 		(stroke
@@ -14250,6 +14458,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 363.22) (xy 394.97 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a87b9f1-f6bc-4b31-8afb-86ea3a8d0300")
+	)
+	(wire
+		(pts
 			(xy 482.6 251.46) (xy 482.6 248.92)
 		)
 		(stroke
@@ -14257,6 +14475,16 @@
 			(type default)
 		)
 		(uuid "7a9fafa1-bd08-4d0e-89cd-990bcada93a9")
+	)
+	(wire
+		(pts
+			(xy 375.92 365.76) (xy 375.92 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aae727b-69e1-49ce-9d80-cead285352a3")
 	)
 	(wire
 		(pts
@@ -15310,6 +15538,16 @@
 	)
 	(wire
 		(pts
+			(xy 347.98 377.19) (xy 345.44 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b17eb72-37cc-4354-a86b-aa97242fdd75")
+	)
+	(wire
+		(pts
 			(xy 397.51 48.26) (xy 400.05 48.26)
 		)
 		(stroke
@@ -15660,6 +15898,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 377.19) (xy 367.03 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917ebae8-36b1-4c93-95da-0c6ca03150ef")
+	)
+	(wire
+		(pts
 			(xy 397.51 234.95) (xy 400.05 234.95)
 		)
 		(stroke
@@ -15677,6 +15925,16 @@
 			(type default)
 		)
 		(uuid "918b5df7-529c-4a99-b2d1-06e81efbc9d9")
+	)
+	(wire
+		(pts
+			(xy 373.38 363.22) (xy 373.38 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91cdc9d3-aac6-4cef-b7b5-588443a4a54c")
 	)
 	(wire
 		(pts
@@ -17300,6 +17558,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 377.19) (xy 388.62 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1f3a0a4-a20f-415f-8e91-1f541a32ef19")
+	)
+	(wire
+		(pts
 			(xy 374.65 328.93) (xy 375.92 328.93)
 		)
 		(stroke
@@ -17890,6 +18158,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 377.19) (xy 359.41 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5f1194-5754-4b73-83ce-38438474f7a2")
+	)
+	(wire
+		(pts
 			(xy 481.33 262.89) (xy 477.52 262.89)
 		)
 		(stroke
@@ -18077,6 +18355,16 @@
 			(type default)
 		)
 		(uuid "bea31905-df48-42e4-bdd0-09227cb6383c")
+	)
+	(wire
+		(pts
+			(xy 335.28 377.19) (xy 337.82 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beed4c1b-cce6-4fd0-9319-63018628e931")
 	)
 	(wire
 		(pts
@@ -18317,6 +18605,16 @@
 			(type default)
 		)
 		(uuid "c2ab719c-999d-4bcb-bc91-70d666dff168")
+	)
+	(wire
+		(pts
+			(xy 568.96 331.47) (xy 566.42 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bf9ffb-1f7a-47a1-9dd4-c180d6e9f595")
 	)
 	(wire
 		(pts
@@ -18810,6 +19108,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 377.19) (xy 381 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb307e08-47dc-462a-9400-96be5b4bb322")
+	)
+	(wire
+		(pts
 			(xy 483.87 116.84) (xy 483.87 128.27)
 		)
 		(stroke
@@ -18897,6 +19205,16 @@
 			(type default)
 		)
 		(uuid "cc6be405-f883-4f73-b4ef-8de084023c29")
+	)
+	(wire
+		(pts
+			(xy 331.47 365.76) (xy 331.47 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb6ae97-1fc7-4578-9a99-b27e52db66e8")
 	)
 	(wire
 		(pts
@@ -19147,6 +19465,16 @@
 			(type default)
 		)
 		(uuid "d0e0fc51-a715-4be7-a318-6998f5c1faa7")
+	)
+	(wire
+		(pts
+			(xy 328.93 365.76) (xy 331.47 365.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0eaa2d5-e5d0-483f-a1e9-1ad8ecc11fdf")
 	)
 	(wire
 		(pts
@@ -19730,6 +20058,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 350.52) (xy 568.96 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da328dfa-2baa-424f-b6d9-d367e6029d15")
+	)
+	(wire
+		(pts
 			(xy 391.16 48.26) (xy 388.62 48.26)
 		)
 		(stroke
@@ -19920,6 +20258,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 377.19) (xy 347.98 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc51d91c-8061-4eb7-a663-005e57ca3926")
+	)
+	(wire
+		(pts
 			(xy 330.2 208.28) (xy 326.39 208.28)
 		)
 		(stroke
@@ -20017,6 +20365,16 @@
 			(type default)
 		)
 		(uuid "de239790-3d86-4843-86d4-52e48d224804")
+	)
+	(wire
+		(pts
+			(xy 375.92 377.19) (xy 378.46 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deaae8b0-ddff-4fb6-8504-561cd12deb26")
 	)
 	(wire
 		(pts
@@ -20150,6 +20508,16 @@
 	)
 	(wire
 		(pts
+			(xy 372.11 363.22) (xy 373.38 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ad2115-2ce4-4164-a738-36aff42367f1")
+	)
+	(wire
+		(pts
 			(xy 353.06 251.46) (xy 353.06 248.92)
 		)
 		(stroke
@@ -20240,6 +20608,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 363.22) (xy 330.2 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c68e35-04b3-4944-905e-42ea880ee3fe")
+	)
+	(wire
+		(pts
 			(xy 483.87 289.56) (xy 486.41 289.56)
 		)
 		(stroke
@@ -20290,6 +20668,16 @@
 	)
 	(wire
 		(pts
+			(xy 394.97 377.19) (xy 391.16 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30be4af-00e0-45cc-b042-2b2605ce5f97")
+	)
+	(wire
+		(pts
 			(xy 501.65 63.5) (xy 504.19 63.5)
 		)
 		(stroke
@@ -20297,6 +20685,16 @@
 			(type default)
 		)
 		(uuid "e31c852c-a489-4f78-a6ca-822b4cad5b6c")
+	)
+	(wire
+		(pts
+			(xy 568.96 350.52) (xy 568.96 331.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e344be17-708f-4016-b558-51e7b33031e9")
 	)
 	(wire
 		(pts
@@ -20497,6 +20895,16 @@
 			(type default)
 		)
 		(uuid "e56e2220-0a47-48b4-a06d-b1d100393593")
+	)
+	(wire
+		(pts
+			(xy 354.33 377.19) (xy 356.87 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e56e2f8b-ccf4-4fad-9d5e-79ddb5b952c1")
 	)
 	(wire
 		(pts
@@ -20737,6 +21145,16 @@
 			(type default)
 		)
 		(uuid "ea1ef224-9cd6-4fa4-b224-f5bc07d0914b")
+	)
+	(wire
+		(pts
+			(xy 373.38 377.19) (xy 369.57 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea469f14-6432-49e4-b6e1-60227d074bcc")
 	)
 	(wire
 		(pts
@@ -21210,6 +21628,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 365.76) (xy 332.74 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f5a96e-8ea4-4279-98a6-74217d34e80f")
+	)
+	(wire
+		(pts
 			(xy 421.64 101.6) (xy 424.18 101.6)
 		)
 		(stroke
@@ -21217,6 +21645,16 @@
 			(type default)
 		)
 		(uuid "f0fb7fad-6337-40c2-9f51-a834d975943e")
+	)
+	(wire
+		(pts
+			(xy 311.15 350.52) (xy 311.15 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10a088c-d89c-4c6e-b77e-75f851b417dc")
 	)
 	(wire
 		(pts
@@ -21317,6 +21755,26 @@
 			(type default)
 		)
 		(uuid "f1dea4c8-ddcc-4f86-bd23-4724f4c11511")
+	)
+	(wire
+		(pts
+			(xy 374.65 363.22) (xy 375.92 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e31294-e7ab-48c1-a816-bf001742e3ba")
+	)
+	(wire
+		(pts
+			(xy 330.2 377.19) (xy 326.39 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f4c731-5255-4877-a814-f2192073b8c3")
 	)
 	(wire
 		(pts
@@ -21477,6 +21935,16 @@
 			(type default)
 		)
 		(uuid "f50ef543-7eeb-479d-b5cb-320ff05d65d4")
+	)
+	(wire
+		(pts
+			(xy 374.65 365.76) (xy 374.65 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5298bc0-6495-4519-9e6f-417a92ac7eaf")
 	)
 	(wire
 		(pts
@@ -25348,6 +25816,89 @@
 		)
 	)
 	(symbol
+		(lib_id "TransmiLib:WS2812B-2020")
+		(at 384.81 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1131724b-2114-46e3-931f-28ca59f267ee")
+		(property "Reference" "LED148"
+			(at 384.81 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 384.81 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TransmiLib:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 384.81 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 384.81 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 384.81 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 384.81 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5aef9511-64df-41dd-a050-430bdc06bcc4")
+		)
+		(pin "2"
+			(uuid "cee44fc7-55e0-4db5-9232-64b94dd7a498")
+		)
+		(pin "4"
+			(uuid "4facad77-ec4d-4521-bf27-9dd35bcb8a3e")
+		)
+		(pin "1"
+			(uuid "37745a5f-35df-4b77-a547-25ba39589683")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "LED148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 520.7 128.27 0)
 		(unit 1)
@@ -26036,6 +26587,89 @@
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TransmiLib:WS2812B-2020")
+		(at 363.22 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "136dd025-6f89-4caf-a212-71937bc71059")
+		(property "Reference" "LED147"
+			(at 363.22 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 363.22 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TransmiLib:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 363.22 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 363.22 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 363.22 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a39e54a2-5583-488e-8175-595098e0ec4c")
+		)
+		(pin "2"
+			(uuid "c1efa5b4-6338-4a42-b8bd-9ac7018dde30")
+		)
+		(pin "4"
+			(uuid "43fd9cb8-cca5-47a4-9323-289779851e47")
+		)
+		(pin "1"
+			(uuid "3659b910-959d-422f-a5df-1ed4b2a91993")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "LED147")
 					(unit 1)
 				)
 			)
@@ -33072,6 +33706,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 384.81 377.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a147482-c31b-44d4-a50f-ecf1d0480523")
+		(property "Reference" "C165"
+			(at 384.81 369.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 384.81 372.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 388.62 376.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 384.81 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 384.81 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2030ebc6-3491-4ee3-bfbb-08ebb299dc24")
+		)
+		(pin "1"
+			(uuid "ba339f76-93eb-471a-878d-7f7e539b6a2d")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "C165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 400.05 181.61 180)
 		(unit 1)
@@ -38042,6 +38744,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 341.63 377.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f644bb0-e62d-4655-b372-9a33a3d11dfa")
+		(property "Reference" "C163"
+			(at 341.63 369.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 341.63 372.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 345.44 376.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 341.63 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e382a6f-6818-41b0-b245-c3762c71e8a9")
+		)
+		(pin "1"
+			(uuid "32b3fd30-810c-4191-9a44-ed00348029f8")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "C163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 400.05 74.93 180)
 		(unit 1)
@@ -41805,6 +42575,89 @@
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TransmiLib:WS2812B-2020")
+		(at 320.04 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60d0cdf9-4bec-48a3-8cf6-736ed46298e7")
+		(property "Reference" "LED145"
+			(at 320.04 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 320.04 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TransmiLib:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 320.04 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 320.04 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 320.04 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cde9a563-a5ea-40a3-a73e-4e972158145f")
+		)
+		(pin "2"
+			(uuid "ad119781-ec09-49ae-8e7c-ae1427a93715")
+		)
+		(pin "4"
+			(uuid "92af2823-76e5-4619-96e4-aa194740e065")
+		)
+		(pin "1"
+			(uuid "286fbcb5-af96-434c-aa9a-127a295ce65b")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "LED145")
 					(unit 1)
 				)
 			)
@@ -52010,6 +52863,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 391.16 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a57d754-e6f5-4abf-b1dd-d03c48dfa51b")
+		(property "Reference" "#PWR0348"
+			(at 391.16 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 391.16 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 391.16 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb43a39-530a-4e1d-8015-6231671cb1c1")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0348")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 492.76 154.94 90)
 		(unit 1)
@@ -58492,6 +59410,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 320.04 377.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0af4902-496f-4350-abfc-b6cace1bc229")
+		(property "Reference" "C162"
+			(at 320.04 369.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 320.04 372.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 323.85 376.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 320.04 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 320.04 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de63660e-c530-4d3c-bfb6-fbd092c6c086")
+		)
+		(pin "1"
+			(uuid "5f95b01f-8625-4452-9192-a67da4eddefc")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "C162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TransmiLib:WS2812B-2020")
 		(at 341.63 62.23 0)
 		(unit 1)
@@ -58635,6 +59621,71 @@
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
 					(reference "#PWR0180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 326.39 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0bfd677-3796-42ec-a056-621456f61b1b")
+		(property "Reference" "#PWR0342"
+			(at 326.39 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 326.39 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 326.39 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 326.39 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29f25961-5663-4d78-8902-cff60776c22c")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0342")
 					(unit 1)
 				)
 			)
@@ -61854,6 +62905,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 356.87 377.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d47909fb-4fdb-4c0a-a10e-8a7cb961d738")
+		(property "Reference" "#PWR0345"
+			(at 356.87 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 356.87 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 356.87 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9917ea98-d36e-4202-815f-fa63f9acdcdc")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0345")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 363.22 48.26 90)
 		(unit 1)
@@ -64231,6 +65348,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 335.28 377.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0243bc3-5975-4bb2-a00f-d3f5cc7de6f2")
+		(property "Reference" "#PWR0343"
+			(at 335.28 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 335.28 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ee1930d-baf2-454b-9fd6-b5424858910a")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0343")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 45.72 135.89 0)
 		(unit 1)
@@ -65526,6 +66709,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 363.22 377.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4cc26a6-e0ae-4143-9a72-b756e7f2195f")
+		(property "Reference" "C164"
+			(at 363.22 369.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 363.22 372.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 367.03 376.2248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 363.22 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d20025ee-3795-4823-8853-9298744e1e84")
+		)
+		(pin "1"
+			(uuid "f8b4381e-e63a-4e2d-8978-7bca13eb6f20")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "C164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 313.69 316.23 180)
 		(unit 1)
@@ -66175,6 +67426,71 @@
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
 					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 347.98 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e74f8f44-9168-49d3-8445-4050afc275b3")
+		(property "Reference" "#PWR0344"
+			(at 347.98 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 347.98 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 347.98 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 347.98 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 347.98 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51f10989-16b5-4ec9-9338-44a0d4ca2ef3")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0344")
 					(unit 1)
 				)
 			)
@@ -67605,6 +68921,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 369.57 377.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed7b6045-f2e8-43f0-b1c7-6388a07edcbb")
+		(property "Reference" "#PWR0346"
+			(at 369.57 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 369.57 372.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 369.57 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 369.57 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbef543f-4b7f-47a2-b949-3e0aa9bfbe2e")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0346")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 25.4 125.73 270)
 		(unit 1)
@@ -68068,6 +69449,72 @@
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
 					(reference "#PWR0274")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 313.69 377.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f028044c-1962-47bd-b2bd-064d97f96972")
+		(property "Reference" "#PWR0341"
+			(at 313.69 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 313.69 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 313.69 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "24a91234-c65a-400f-a0d7-e5ca63a7a3cc")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0341")
 					(unit 1)
 				)
 			)
@@ -69407,6 +70854,89 @@
 		)
 	)
 	(symbol
+		(lib_id "TransmiLib:WS2812B-2020")
+		(at 341.63 364.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7295f57-814a-446a-a83b-84f03fd0d4b5")
+		(property "Reference" "LED146"
+			(at 341.63 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-2020"
+			(at 341.63 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TransmiLib:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
+			(at 341.63 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
+			(at 341.63 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965555"
+			(at 341.63 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "babfa301-f48c-44e4-adcd-736de327e7b9")
+		)
+		(pin "2"
+			(uuid "36138abe-d7c6-4b24-b68c-cbad37a537d8")
+		)
+		(pin "4"
+			(uuid "1af8914b-d514-411a-ba0e-52c10bebd5b7")
+		)
+		(pin "1"
+			(uuid "82cc4ac0-6232-49d7-8280-38f86e05e812")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "LED146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 529.59 101.6 180)
 		(unit 1)
@@ -69467,6 +70997,72 @@
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
 					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 378.46 377.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f833b778-def7-4667-8851-d24b1198b600")
+		(property "Reference" "#PWR0347"
+			(at 378.46 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 378.46 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 378.46 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 378.46 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0f028c21-bb86-43d3-a85c-520e45922eb0")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0347")
 					(unit 1)
 				)
 			)
