@@ -1,0 +1,104 @@
+
+(rules PCB Transmi.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 5)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.1)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.1)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clearance 100.0)
+    (clearance 100.0 (type smd_to_turn_gap))
+    (clearance 25.0 (type smd))
+    (clearance 100.0 (type "kicad_default"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    +BATT Earth "XTAL_N" +5V +3V3 "Net-(C110-Pad1)" "Net-(U1-XTAL_32K_P)" "Net-(U1-XTAL_32K_N)"
+    RESET VBUS "Net-(D129-K)" "Net-(D130-K)" BOOT CHRG STBY "Net-(U103-PROG)"
+    VCC "Net-(Q102-CE)" "XTAL_P" "Net-(USB101-CC1)" "Net-(USB101-CC2)" VBAT "unconnected-(U1-MTCK-Pad43)" "unconnected-(U1-GPIO35-Pad39)"
+    "unconnected-(U1-GPIO14-Pad19)" "unconnected-(U1-GPIO37-Pad41)" "USB_DP" "unconnected-(U1-MTMS-Pad47)" "USB_DN" "unconnected-(U1-GPIO3-Pad8)" "unconnected-(U1-GPIO34-Pad38)" "unconnected-(U1-GPIO8-Pad13)"
+    "unconnected-(U1-GPIO5-Pad10)" "unconnected-(U1-MTDO-Pad44)" "unconnected-(U1-GPIO45-Pad50)" "unconnected-(U1-GPIO1-Pad6)" "unconnected-(U1-GPIO10-Pad15)" "unconnected-(U1-GPIO13-Pad18)" "unconnected-(U1-SPIHD-Pad31)" "unconnected-(U1-MTDI-Pad46)"
+    "unconnected-(U1-GPIO21-Pad28)" "unconnected-(U1-SPIQ-Pad35)" "unconnected-(U1-DAC_2-Pad24)" "unconnected-(U1-GPIO2-Pad7)" "unconnected-(U1-SPICLK-Pad34)" "unconnected-(U1-SPIWP-Pad32)" "unconnected-(U1-SPID-Pad36)" "unconnected-(U1-SPICS1-Pad29)"
+    "unconnected-(U1-U0RXD-Pad49)" "unconnected-(U1-GPIO36-Pad40)" "unconnected-(U1-GPIO9-Pad14)" "unconnected-(U1-GPIO12-Pad17)" "Net-(J104-Pin_1)" "unconnected-(U1-DAC_1-Pad23)" "unconnected-(U1-SPICS0-Pad33)" "unconnected-(U1-GPIO7-Pad12)"
+    "unconnected-(U1-GPIO46-Pad55)" "unconnected-(U1-GPIO4-Pad9)" "unconnected-(U1-GPIO6-Pad11)" "unconnected-(U1-GPIO38-Pad42)" "unconnected-(U1-U0TXD-Pad48)" "unconnected-(U1-VDD_SPI-Pad30)" "unconnected-(U103-EP-Pad9)" "unconnected-(U103-VCC-Pad4)"
+    "unconnected-(U103-BAT-Pad5)" "Net-(X101-OSC1)" "unconnected-(Q102-NC-Pad4)" "unconnected-(USB101-SHELL-Pad1)" "unconnected-(USB101-SBU1-PadA8)" "unconnected-(USB101-SHELL-Pad3)" "unconnected-(USB101-SHELL-Pad4)" "unconnected-(USB101-SHELL-Pad2)"
+    "unconnected-(USB101-SBU2-PadB8)" "Net-(LED2-DO)" "Net-(LED121-DO)" "Net-(LED134-DO)" "Net-(LED135-DO)" "Net-(LED54-DO)" "Net-(LED5-DI)" "Net-(LED60-DO)"
+    "Net-(LED56-DO)" "Net-(LED22-DO)" "Net-(LED10-DO)" "Net-(LED10-DI)" "Net-(LED106-DO)" "Net-(LED11-DO)" "Net-(LED12-DO)" "Net-(LED108-DO)"
+    "Net-(LED15-DI)" "Net-(LED16-DI)" "Net-(LED17-DI)" "Net-(LED18-DI)" "Net-(LED19-DI)" "Net-(LED20-DI)" "Net-(LED21-DI)" "Net-(LED22-DI)"
+    "Net-(LED122-DO)" "Net-(LED24-DI)" "Net-(LED13-DO)" "Net-(LED26-DO)" "Net-(LED133-DO)" "Net-(LED14-DO)" "Net-(LED28-DI)" "Net-(LED29-DI)"
+    "Net-(LED30-DI)" "Net-(LED31-DI)" "Net-(LED32-DI)" "Net-(LED15-DO)" "Net-(LED34-DI)" "Net-(LED16-DO)" "Net-(LED36-DI)" "Net-(LED21-DO)"
+    "Net-(LED118-DO)" "Net-(LED23-DO)" "Net-(LED40-DI)" "Net-(LED41-DI)" "Net-(LED148-DI)" "Net-(LED43-DI)" "Net-(LED44-DI)" "Net-(LED136-DO)"
+    "Net-(LED46-DI)" "Net-(LED48-DI)" "Net-(LED25-DO)" "Net-(LED27-DO)" "Net-(LED50-DO)" "Net-(LED51-DO)" "Net-(LED28-DO)" "Net-(LED33-DO)"
+    "Net-(LED130-DO)" "Net-(LED35-DO)" "Net-(LED36-DO)" "Net-(LED37-DO)" "Net-(LED38-DO)" "Net-(LED57-DI)" "Net-(LED58-DI)" "Net-(LED39-DO)"
+    "Net-(LED60-DI)" "Net-(LED40-DO)" "Net-(LED148-DO)" "unconnected-(LED45-DO-Pad1)" "Net-(LED142-DO)" "Net-(LED47-DO)" "Net-(LED48-DO)" "Net-(LED49-DO)"
+    "Net-(LED147-DO)" "Net-(LED104-DO)" "Net-(LED70-DI)" "Net-(LED61-DO)" "Net-(LED62-DO)" "Net-(LED63-DO)" "Net-(LED113-DO)" "Net-(LED115-DO)"
+    "Net-(LED116-DO)" "Net-(LED120-DO)" "Net-(LED73-DO)" "Net-(LED74-DO)" "Net-(LED75-DO)" "Net-(LED125-DO)" "Net-(LED82-DI)" "Net-(LED127-DO)"
+    "Net-(LED145-DO)" "Net-(LED117-DO)" "Net-(LED132-DO)" "Net-(LED87-DO)" "Net-(LED137-DO)" "Net-(LED114-DO)" "Net-(LED143-DI)" "Net-(LED139-DO)"
+    "Net-(LED146-DO)" "Net-(LED129-DO)" "Net-(LED101-DO)" "Net-(LED102-DO)" "Net-(LED141-DI)" "Net-(LED103-DO)" "Net-(LED111-DO)" "Net-(LED100-DI)"
+    "Net-(LED100-DO)" "Net-(LED101-DI)" "Net-(LED102-DI)" "Net-(LED103-DI)" "Net-(LED104-DI)" "Net-(LED105-DI)" "Net-(LED106-DI)" "Net-(LED107-DI)"
+    "Net-(LED108-DI)" "Net-(LED109-DI)" "Net-(LED110-DI)" "Net-(LED111-DI)" "Net-(LED112-DI)" "Net-(LED144-DO)" "Net-(LED114-DI)" "Net-(LED115-DI)"
+    "Net-(LED116-DI)" "Net-(LED117-DI)" "Net-(LED118-DI)" "Net-(LED119-DI)" "Net-(LED120-DI)" "Net-(LED121-DI)" "Net-(LED122-DI)" "Net-(LED124-DI)"
+    "Net-(LED125-DI)" "Net-(LED126-DI)" "Net-(LED107-DO)" "Net-(LED109-DO)" "Net-(LED129-DI)" "Net-(LED130-DI)" "Net-(LED131-DI)" "Net-(LED132-DI)"
+    "Net-(LED110-DO)" "Net-(LED112-DO)" "Net-(LED119-DO)" "Net-(LED136-DI)" "Net-(LED137-DI)" "Net-(LED138-DI)" "Net-(LED123-DO)" "Net-(LED140-DI)"
+    "Net-(LED144-DI)" "Net-(LED145-DI)" "Net-(LED146-DI)" "Net-(LED124-DO)" LED "Net-(U1-GPIO33)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

@@ -772,6 +772,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -5957,6 +6081,12 @@
 		(uuid "92f9eba1-02d4-4ebc-9205-a917c99591c6")
 	)
 	(junction
+		(at 129.54 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93b0eae3-0681-4e24-a67c-795b6c0962c3")
+	)
+	(junction
 		(at 421.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6057,12 +6187,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f8a16a0-2a05-4021-b812-2aa9e75b21fd")
-	)
-	(junction
-		(at 378.46 377.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a128ed8f-c766-4aca-a586-fa91fc9d191b")
 	)
 	(junction
 		(at 551.18 262.89)
@@ -6515,12 +6639,6 @@
 		(uuid "df13fb8d-d439-44d7-99d5-af77aeb1b401")
 	)
 	(junction
-		(at 391.16 377.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df818257-ccb1-4742-b84f-4e9b87c04389")
-	)
-	(junction
 		(at 520.7 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6915,10 +7033,6 @@
 	(no_connect
 		(at 54.61 153.67)
 		(uuid "ccde082b-fe52-406a-a5cc-f4942388f9b5")
-	)
-	(no_connect
-		(at 104.14 161.29)
-		(uuid "cce3fc65-6062-42af-8899-ceece773b9dc")
 	)
 	(no_connect
 		(at 54.61 168.91)
@@ -7585,6 +7699,16 @@
 			(type default)
 		)
 		(uuid "0a48cbd3-8aea-4719-8b43-f4e1168f0135")
+	)
+	(wire
+		(pts
+			(xy 104.14 161.29) (xy 105.41 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab39fe3-b8bb-4fbd-a829-58c1d77bf910")
 	)
 	(wire
 		(pts
@@ -9538,16 +9662,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 365.76) (xy 396.24 365.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261c39d6-beef-48e8-8244-9f26d74c6366")
-	)
-	(wire
-		(pts
 			(xy 547.37 167.64) (xy 548.64 167.64)
 		)
 		(stroke
@@ -10505,6 +10619,16 @@
 			(type default)
 		)
 		(uuid "3607fcc9-cbd6-4d71-ab66-704c59c87bed")
+	)
+	(wire
+		(pts
+			(xy 129.54 52.07) (xy 140.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36108f85-8ae4-4497-a007-10a25b83fc0f")
 	)
 	(wire
 		(pts
@@ -11935,16 +12059,6 @@
 			(type default)
 		)
 		(uuid "4f82f7ed-4b2d-43ad-a2e5-00489724769c")
-	)
-	(wire
-		(pts
-			(xy 393.7 363.22) (xy 394.97 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fa91188-d8b7-4451-9343-50bc096b0552")
 	)
 	(wire
 		(pts
@@ -14458,16 +14572,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 363.22) (xy 394.97 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a87b9f1-f6bc-4b31-8afb-86ea3a8d0300")
-	)
-	(wire
-		(pts
 			(xy 482.6 251.46) (xy 482.6 248.92)
 		)
 		(stroke
@@ -14475,16 +14579,6 @@
 			(type default)
 		)
 		(uuid "7a9fafa1-bd08-4d0e-89cd-990bcada93a9")
-	)
-	(wire
-		(pts
-			(xy 375.92 365.76) (xy 375.92 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aae727b-69e1-49ce-9d80-cead285352a3")
 	)
 	(wire
 		(pts
@@ -17558,16 +17652,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 377.19) (xy 388.62 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f3a0a4-a20f-415f-8e91-1f541a32ef19")
-	)
-	(wire
-		(pts
 			(xy 374.65 328.93) (xy 375.92 328.93)
 		)
 		(stroke
@@ -17618,7 +17702,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 52.07) (xy 140.97 52.07)
+			(xy 125.73 52.07) (xy 129.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -19108,16 +19192,6 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 377.19) (xy 381 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb307e08-47dc-462a-9400-96be5b4bb322")
-	)
-	(wire
-		(pts
 			(xy 483.87 116.84) (xy 483.87 128.27)
 		)
 		(stroke
@@ -20368,16 +20442,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 377.19) (xy 378.46 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "deaae8b0-ddff-4fb6-8504-561cd12deb26")
-	)
-	(wire
-		(pts
 			(xy 524.51 234.95) (xy 520.7 234.95)
 		)
 		(stroke
@@ -20665,16 +20729,6 @@
 			(type default)
 		)
 		(uuid "e302cbcd-8fe5-4985-892d-5ee0a7e3d433")
-	)
-	(wire
-		(pts
-			(xy 394.97 377.19) (xy 391.16 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30be4af-00e0-45cc-b042-2b2605ce5f97")
 	)
 	(wire
 		(pts
@@ -22882,6 +22936,28 @@
 			)
 		)
 	)
+	(global_label "LED"
+		(shape input)
+		(at 375.92 363.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5976b22-6309-40b1-9184-de59724ebfa2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.3523 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DN"
 		(shape input)
 		(at 220.98 49.53 0)
@@ -22895,6 +22971,28 @@
 		(uuid "ba4cd8bc-3e8d-493c-83ea-27df30b54abd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 230.7712 49.4506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED"
+		(shape input)
+		(at 113.03 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4a29ffe-b35a-4275-826a-f62f421df50f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4623 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23011,7 +23109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 69.85 0)
 			(effects
 				(font
@@ -23210,7 +23308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 257.81 0)
 			(effects
 				(font
@@ -23275,7 +23373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 229.87 0)
 			(effects
 				(font
@@ -23533,7 +23631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0541dc9b-a84d-4dc2-9bc5-3c7843b9a051")
-		(property "Reference" "LED69"
+		(property "Reference" "LED23"
 			(at 427.99 133.35 0)
 			(effects
 				(font
@@ -23600,7 +23698,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED69")
+					(reference "LED23")
 					(unit 1)
 				)
 			)
@@ -23821,7 +23919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "072357a8-90e0-4217-97fb-874bdfc39156")
-		(property "Reference" "LED2"
+		(property "Reference" "LED33"
 			(at 341.63 26.67 0)
 			(effects
 				(font
@@ -23888,7 +23986,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED2")
+					(reference "LED33")
 					(unit 1)
 				)
 			)
@@ -23913,7 +24011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 337.82 0)
 			(effects
 				(font
@@ -24044,7 +24142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 176.53 0)
 			(effects
 				(font
@@ -24177,7 +24275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 337.82 0)
 			(effects
 				(font
@@ -24233,7 +24331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0929f609-3d02-4e51-ae71-05890a08ed08")
-		(property "Reference" "LED71"
+		(property "Reference" "LED142"
 			(at 427.99 186.69 0)
 			(effects
 				(font
@@ -24300,7 +24398,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED71")
+					(reference "LED142")
 					(unit 1)
 				)
 			)
@@ -24325,7 +24423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 176.53 0)
 			(effects
 				(font
@@ -24390,7 +24488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 123.19 0)
 			(effects
 				(font
@@ -24446,7 +24544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0999a5a4-3fe8-4f99-8697-fd603129182b")
-		(property "Reference" "LED141"
+		(property "Reference" "LED52"
 			(at 557.53 241.3 0)
 			(effects
 				(font
@@ -24513,7 +24611,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED141")
+					(reference "LED52")
 					(unit 1)
 				)
 			)
@@ -24595,7 +24693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ab27f86-4e3f-4f51-8390-7b22375eb4ac")
-		(property "Reference" "LED13"
+		(property "Reference" "LED82"
 			(at 320.04 53.34 0)
 			(effects
 				(font
@@ -24662,7 +24760,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED13")
+					(reference "LED82")
 					(unit 1)
 				)
 			)
@@ -24678,7 +24776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b069073-fcc7-4dc0-992d-175c0de92a2c")
-		(property "Reference" "LED132"
+		(property "Reference" "LED139"
 			(at 492.76 321.31 0)
 			(effects
 				(font
@@ -24745,7 +24843,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED132")
+					(reference "LED139")
 					(unit 1)
 				)
 			)
@@ -24770,7 +24868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 203.2 0)
 			(effects
 				(font
@@ -24835,7 +24933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 123.19 0)
 			(effects
 				(font
@@ -25036,7 +25134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 257.81 0)
 			(effects
 				(font
@@ -25504,7 +25602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 96.52 0)
 			(effects
 				(font
@@ -25569,7 +25667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 311.15 0)
 			(effects
 				(font
@@ -25816,89 +25914,6 @@
 		)
 	)
 	(symbol
-		(lib_id "TransmiLib:WS2812B-2020")
-		(at 384.81 364.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1131724b-2114-46e3-931f-28ca59f267ee")
-		(property "Reference" "LED148"
-			(at 384.81 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-2020"
-			(at 384.81 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TransmiLib:LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020"
-			(at 384.81 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-2020_C965555.html"
-			(at 384.81 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 384.81 364.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C965555"
-			(at 384.81 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5aef9511-64df-41dd-a050-430bdc06bcc4")
-		)
-		(pin "2"
-			(uuid "cee44fc7-55e0-4db5-9232-64b94dd7a498")
-		)
-		(pin "4"
-			(uuid "4facad77-ec4d-4521-bf27-9dd35bcb8a3e")
-		)
-		(pin "1"
-			(uuid "37745a5f-35df-4b77-a547-25ba39589683")
-		)
-		(instances
-			(project "Transmi"
-				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 520.7 128.27 0)
 		(unit 1)
@@ -25917,7 +25932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 123.19 0)
 			(effects
 				(font
@@ -25982,7 +25997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 284.48 0)
 			(effects
 				(font
@@ -26235,7 +26250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12142cca-3451-4d61-a2dd-9ee7c7d83311")
-		(property "Reference" "LED32"
+		(property "Reference" "LED50"
 			(at 384.81 106.68 0)
 			(effects
 				(font
@@ -26302,7 +26317,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED32")
+					(reference "LED50")
 					(unit 1)
 				)
 			)
@@ -26327,7 +26342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 203.2 0)
 			(effects
 				(font
@@ -26451,7 +26466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1312893b-c4f9-47bb-b129-f1c93c0e1b79")
-		(property "Reference" "LED59"
+		(property "Reference" "LED125"
 			(at 363.22 186.69 0)
 			(effects
 				(font
@@ -26518,7 +26533,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED59")
+					(reference "LED125")
 					(unit 1)
 				)
 			)
@@ -26602,7 +26617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "136dd025-6f89-4caf-a212-71937bc71059")
-		(property "Reference" "LED147"
+		(property "Reference" "LED123"
 			(at 363.22 355.6 0)
 			(effects
 				(font
@@ -26669,7 +26684,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED147")
+					(reference "LED123")
 					(unit 1)
 				)
 			)
@@ -26751,7 +26766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13e391ac-e7c6-4f27-ba02-5fc213692721")
-		(property "Reference" "LED34"
+		(property "Reference" "LED26"
 			(at 406.4 106.68 0)
 			(effects
 				(font
@@ -26818,7 +26833,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED34")
+					(reference "LED26")
 					(unit 1)
 				)
 			)
@@ -27501,7 +27516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1be1cdf2-65f8-4842-a886-9ff00abcd27f")
-		(property "Reference" "LED140"
+		(property "Reference" "LED64"
 			(at 535.94 321.31 0)
 			(effects
 				(font
@@ -27568,7 +27583,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED140")
+					(reference "LED64")
 					(unit 1)
 				)
 			)
@@ -27593,7 +27608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 123.19 0)
 			(effects
 				(font
@@ -27649,7 +27664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca25a52-ba14-4ade-b204-46d4d1be20b0")
-		(property "Reference" "LED120"
+		(property "Reference" "LED7"
 			(at 427.99 321.31 0)
 			(effects
 				(font
@@ -27716,7 +27731,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED120")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -27741,7 +27756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 203.2 0)
 			(effects
 				(font
@@ -28070,7 +28085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 69.85 0)
 			(effects
 				(font
@@ -28271,7 +28286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 337.82 0)
 			(effects
 				(font
@@ -28327,7 +28342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef9d901-a6c2-4fe9-88f6-826179bf66c1")
-		(property "Reference" "LED37"
+		(property "Reference" "LED133"
 			(at 449.58 80.01 0)
 			(effects
 				(font
@@ -28394,7 +28409,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED37")
+					(reference "LED133")
 					(unit 1)
 				)
 			)
@@ -28419,7 +28434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 96.52 0)
 			(effects
 				(font
@@ -28541,7 +28556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f47ba47-5132-4e66-95bf-7cad9509a44b")
-		(property "Reference" "LED93"
+		(property "Reference" "LED120"
 			(at 557.53 133.35 0)
 			(effects
 				(font
@@ -28608,7 +28623,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED93")
+					(reference "LED120")
 					(unit 1)
 				)
 			)
@@ -28633,7 +28648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 43.18 0)
 			(effects
 				(font
@@ -28963,7 +28978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 96.52 0)
 			(effects
 				(font
@@ -29028,7 +29043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 257.81 0)
 			(effects
 				(font
@@ -29388,7 +29403,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e9a66a-3d71-4f9c-9b46-f4f94af374a0")
-		(property "Reference" "LED83"
+		(property "Reference" "LED148"
 			(at 492.76 186.69 0)
 			(effects
 				(font
@@ -29455,7 +29470,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED83")
+					(reference "LED148")
 					(unit 1)
 				)
 			)
@@ -30083,7 +30098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 96.52 0)
 			(effects
 				(font
@@ -30207,7 +30222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26ac3c64-891c-4e93-8abe-b80b0fb749d1")
-		(property "Reference" "LED137"
+		(property "Reference" "LED100"
 			(at 535.94 241.3 0)
 			(effects
 				(font
@@ -30274,7 +30289,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED137")
+					(reference "LED100")
 					(unit 1)
 				)
 			)
@@ -30299,7 +30314,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.63 46.99 90)
+			(at 90.678 44.958 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30364,7 +30379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 229.87 0)
 			(effects
 				(font
@@ -30554,7 +30569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2812042d-4d2f-45cb-aa11-0440c3e9d02b")
-		(property "Reference" "LED11"
+		(property "Reference" "LED58"
 			(at 535.94 26.67 0)
 			(effects
 				(font
@@ -30621,7 +30636,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED11")
+					(reference "LED58")
 					(unit 1)
 				)
 			)
@@ -30637,7 +30652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a5d32e5-ad03-47b1-b796-1a9d66becb3f")
-		(property "Reference" "LED29"
+		(property "Reference" "LED86"
 			(at 363.22 80.01 0)
 			(effects
 				(font
@@ -30704,7 +30719,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED29")
+					(reference "LED86")
 					(unit 1)
 				)
 			)
@@ -30729,7 +30744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 229.87 0)
 			(effects
 				(font
@@ -31121,7 +31136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e9d594e-aedf-4bdc-859e-77077873f0f4")
-		(property "Reference" "LED22"
+		(property "Reference" "LED27"
 			(at 514.35 53.34 0)
 			(effects
 				(font
@@ -31188,7 +31203,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED22")
+					(reference "LED27")
 					(unit 1)
 				)
 			)
@@ -31413,7 +31428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 176.53 0)
 			(effects
 				(font
@@ -31605,7 +31620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30ee0b69-edb5-40bc-9aea-d6f6b697d841")
-		(property "Reference" "LED117"
+		(property "Reference" "LED146"
 			(at 427.99 241.3 0)
 			(effects
 				(font
@@ -31672,7 +31687,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED117")
+					(reference "LED146")
 					(unit 1)
 				)
 			)
@@ -31956,7 +31971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31d40948-8f4d-4b87-a6eb-253e844d2cdc")
-		(property "Reference" "LED38"
+		(property "Reference" "LED121"
 			(at 449.58 106.68 0)
 			(effects
 				(font
@@ -32023,7 +32038,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED38")
+					(reference "LED121")
 					(unit 1)
 				)
 			)
@@ -32182,7 +32197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 43.18 0)
 			(effects
 				(font
@@ -32379,7 +32394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 43.18 0)
 			(effects
 				(font
@@ -32639,7 +32654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34876d47-563d-4164-a0fe-da3f0d765596")
-		(property "Reference" "LED124"
+		(property "Reference" "LED60"
 			(at 449.58 321.31 0)
 			(effects
 				(font
@@ -32706,7 +32721,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED124")
+					(reference "LED60")
 					(unit 1)
 				)
 			)
@@ -32922,7 +32937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36733b87-7216-4885-ae03-0517465e6562")
-		(property "Reference" "LED75"
+		(property "Reference" "LED119"
 			(at 449.58 186.69 0)
 			(effects
 				(font
@@ -32989,7 +33004,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED75")
+					(reference "LED119")
 					(unit 1)
 				)
 			)
@@ -33014,7 +33029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 69.85 0)
 			(effects
 				(font
@@ -33079,7 +33094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 43.18 0)
 			(effects
 				(font
@@ -33135,7 +33150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37dd5816-b8dc-4a0c-af4f-c1dedc65a955")
-		(property "Reference" "LED66"
+		(property "Reference" "LED59"
 			(at 406.4 160.02 0)
 			(effects
 				(font
@@ -33202,7 +33217,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED66")
+					(reference "LED59")
 					(unit 1)
 				)
 			)
@@ -33227,7 +33242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 123.19 0)
 			(effects
 				(font
@@ -33283,7 +33298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f08e1d-0a10-475d-a9d6-15cfd4397802")
-		(property "Reference" "LED55"
+		(property "Reference" "LED77"
 			(at 341.63 186.69 0)
 			(effects
 				(font
@@ -33350,7 +33365,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED55")
+					(reference "LED77")
 					(unit 1)
 				)
 			)
@@ -33498,7 +33513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38f9aca6-9679-43d6-ab0f-251ed1969867")
-		(property "Reference" "LED44"
+		(property "Reference" "LED49"
 			(at 514.35 106.68 0)
 			(effects
 				(font
@@ -33565,7 +33580,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED44")
+					(reference "LED49")
 					(unit 1)
 				)
 			)
@@ -33706,74 +33721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 384.81 377.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a147482-c31b-44d4-a50f-ecf1d0480523")
-		(property "Reference" "C165"
-			(at 384.81 369.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 384.81 372.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 388.62 376.2248 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 384.81 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 384.81 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2030ebc6-3491-4ee3-bfbb-08ebb299dc24")
-		)
-		(pin "1"
-			(uuid "ba339f76-93eb-471a-878d-7f7e539b6a2d")
-		)
-		(instances
-			(project "Transmi"
-				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "C165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 400.05 181.61 180)
 		(unit 1)
@@ -33858,7 +33805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 311.15 0)
 			(effects
 				(font
@@ -33991,7 +33938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 311.15 0)
 			(effects
 				(font
@@ -34056,7 +34003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 43.18 0)
 			(effects
 				(font
@@ -34255,7 +34202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 337.82 0)
 			(effects
 				(font
@@ -34311,7 +34258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d659c04-5a7c-4dc7-82eb-8db6f808b6cd")
-		(property "Reference" "LED135"
+		(property "Reference" "LED124"
 			(at 514.35 294.64 0)
 			(effects
 				(font
@@ -34378,7 +34325,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED135")
+					(reference "LED124")
 					(unit 1)
 				)
 			)
@@ -34535,7 +34482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e2dff3c-befa-405b-bb54-458d6c58a18b")
-		(property "Reference" "LED106"
+		(property "Reference" "LED8"
 			(at 363.22 267.97 0)
 			(effects
 				(font
@@ -34602,7 +34549,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED106")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -34761,7 +34708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 96.52 0)
 			(effects
 				(font
@@ -34817,7 +34764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f6ca150-85bc-4783-b7e2-1673ee3b10ba")
-		(property "Reference" "LED80"
+		(property "Reference" "LED54"
 			(at 471.17 213.36 0)
 			(effects
 				(font
@@ -34884,7 +34831,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED80")
+					(reference "LED54")
 					(unit 1)
 				)
 			)
@@ -35212,7 +35159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 43.18 0)
 			(effects
 				(font
@@ -35268,7 +35215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "406e706e-c3fb-4fc9-b0b9-a04bf91d54f8")
-		(property "Reference" "LED41"
+		(property "Reference" "LED85"
 			(at 492.76 80.01 0)
 			(effects
 				(font
@@ -35335,7 +35282,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED41")
+					(reference "LED85")
 					(unit 1)
 				)
 			)
@@ -36009,6 +35956,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 129.54 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "438afc7a-347d-4eb2-bfe2-9b7a5393a2d6")
+		(property "Reference" "C166"
+			(at 121.666 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000u"
+			(at 121.666 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm"
+			(at 130.5052 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7bf0df4-77e1-4937-88cc-bc91b511d111")
+		)
+		(pin "2"
+			(uuid "a8678c54-245d-401d-ad9e-a80ea6602406")
+		)
+		(instances
+			(project ""
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "C166")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 179.07 46.99 270)
 		(unit 1)
@@ -36160,7 +36176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 203.2 0)
 			(effects
 				(font
@@ -36216,7 +36232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44e8bcc9-2c4d-4590-958e-f7ca7fcec6b0")
-		(property "Reference" "LED116"
+		(property "Reference" "LED145"
 			(at 406.4 321.31 0)
 			(effects
 				(font
@@ -36283,7 +36299,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED116")
+					(reference "LED145")
 					(unit 1)
 				)
 			)
@@ -36299,7 +36315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45132241-d1d9-4030-9b6c-1590493bf93d")
-		(property "Reference" "LED9"
+		(property "Reference" "LED34"
 			(at 492.76 26.67 0)
 			(effects
 				(font
@@ -36366,7 +36382,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED9")
+					(reference "LED34")
 					(unit 1)
 				)
 			)
@@ -36457,7 +36473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 311.15 0)
 			(effects
 				(font
@@ -36590,7 +36606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 149.86 0)
 			(effects
 				(font
@@ -36712,7 +36728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46ad5403-f212-4b7a-b00a-f304b4b92a67")
-		(property "Reference" "LED81"
+		(property "Reference" "LED66"
 			(at 492.76 133.35 0)
 			(effects
 				(font
@@ -36779,7 +36795,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED81")
+					(reference "LED66")
 					(unit 1)
 				)
 			)
@@ -36795,7 +36811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "472d2c31-9ad5-4cfc-98ce-9139fe85620b")
-		(property "Reference" "LED31"
+		(property "Reference" "LED62"
 			(at 384.81 80.01 0)
 			(effects
 				(font
@@ -36862,7 +36878,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED31")
+					(reference "LED62")
 					(unit 1)
 				)
 			)
@@ -36878,7 +36894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47d2b964-70c8-4470-a9dd-126b38d7dbd2")
-		(property "Reference" "LED18"
+		(property "Reference" "LED75"
 			(at 427.99 53.34 0)
 			(effects
 				(font
@@ -36945,7 +36961,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED18")
+					(reference "LED75")
 					(unit 1)
 				)
 			)
@@ -36961,7 +36977,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4805b444-0f4e-4b37-b203-8123c08ecf93")
-		(property "Reference" "LED136"
+		(property "Reference" "LED112"
 			(at 514.35 321.31 0)
 			(effects
 				(font
@@ -37028,7 +37044,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED136")
+					(reference "LED112")
 					(unit 1)
 				)
 			)
@@ -37178,7 +37194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "490bb61e-591d-49d3-b8d8-ecde2606f864")
-		(property "Reference" "LED138"
+		(property "Reference" "LED88"
 			(at 535.94 267.97 0)
 			(effects
 				(font
@@ -37245,7 +37261,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED138")
+					(reference "LED88")
 					(unit 1)
 				)
 			)
@@ -37330,7 +37346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "498e0113-2735-4dbd-9dea-72cd317d5818")
-		(property "Reference" "LED72"
+		(property "Reference" "LED130"
 			(at 427.99 213.36 0)
 			(effects
 				(font
@@ -37397,7 +37413,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED72")
+					(reference "LED130")
 					(unit 1)
 				)
 			)
@@ -37481,7 +37497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c2e1ee-13fa-4137-b589-78cb3a49d6c4")
-		(property "Reference" "LED97"
+		(property "Reference" "LED90"
 			(at 320.04 241.3 0)
 			(effects
 				(font
@@ -37548,7 +37564,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED97")
+					(reference "LED90")
 					(unit 1)
 				)
 			)
@@ -37639,7 +37655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 257.81 0)
 			(effects
 				(font
@@ -37770,7 +37786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 96.52 0)
 			(effects
 				(font
@@ -37967,7 +37983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 123.19 0)
 			(effects
 				(font
@@ -38023,7 +38039,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c57d9d6-f206-4a15-9a2c-abacb4e634f0")
-		(property "Reference" "LED128"
+		(property "Reference" "LED91"
 			(at 471.17 321.31 0)
 			(effects
 				(font
@@ -38090,7 +38106,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED128")
+					(reference "LED91")
 					(unit 1)
 				)
 			)
@@ -38106,7 +38122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c703733-f477-4d97-9b9a-adc031e309d0")
-		(property "Reference" "LED12"
+		(property "Reference" "LED70"
 			(at 557.53 26.67 0)
 			(effects
 				(font
@@ -38173,7 +38189,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED12")
+					(reference "LED70")
 					(unit 1)
 				)
 			)
@@ -38198,7 +38214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 176.53 0)
 			(effects
 				(font
@@ -38453,7 +38469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dea2a24-3499-435d-9426-9bcd42ee9085")
-		(property "Reference" "LED104"
+		(property "Reference" "LED129"
 			(at 341.63 321.31 0)
 			(effects
 				(font
@@ -38520,7 +38536,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED104")
+					(reference "LED129")
 					(unit 1)
 				)
 			)
@@ -38602,7 +38618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e5dc92d-a4b0-4ded-9905-1f05bf4c4b28")
-		(property "Reference" "LED64"
+		(property "Reference" "LED83"
 			(at 384.81 213.36 0)
 			(effects
 				(font
@@ -38669,7 +38685,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED64")
+					(reference "LED83")
 					(unit 1)
 				)
 			)
@@ -39400,7 +39416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 96.52 0)
 			(effects
 				(font
@@ -39456,7 +39472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5330e832-5a08-48fc-9f6c-fdabcb6697a6")
-		(property "Reference" "LED27"
+		(property "Reference" "LED110"
 			(at 341.63 80.01 0)
 			(effects
 				(font
@@ -39523,7 +39539,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED27")
+					(reference "LED110")
 					(unit 1)
 				)
 			)
@@ -39682,7 +39698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 311.15 0)
 			(effects
 				(font
@@ -39938,7 +39954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5542f9f6-bda8-40a3-9380-4eed271daf43")
-		(property "Reference" "LED88"
+		(property "Reference" "LED12"
 			(at 514.35 213.36 0)
 			(effects
 				(font
@@ -40005,7 +40021,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED88")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -40096,7 +40112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 311.15 0)
 			(effects
 				(font
@@ -40152,7 +40168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5734d311-3f9e-4902-8db8-8e8775340c27")
-		(property "Reference" "LED113"
+		(property "Reference" "LED92"
 			(at 406.4 241.3 0)
 			(effects
 				(font
@@ -40219,7 +40235,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED113")
+					(reference "LED92")
 					(unit 1)
 				)
 			)
@@ -40312,7 +40328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 69.85 0)
 			(effects
 				(font
@@ -40377,7 +40393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 123.19 0)
 			(effects
 				(font
@@ -40493,6 +40509,72 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
+		(at 129.54 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58ae1824-c51e-45ea-a8b0-03284464829c")
+		(property "Reference" "#PWR0349"
+			(at 129.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 129.54 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "feb84772-c3bb-4a7a-90d2-ae89d4335678")
+		)
+		(instances
+			(project "Transmi"
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "#PWR0349")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
 		(at 551.18 208.28 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40576,7 +40658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 176.53 0)
 			(effects
 				(font
@@ -40764,7 +40846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a9a14df-ce8b-4642-a043-af799fd13c1d")
-		(property "Reference" "LED54"
+		(property "Reference" "LED65"
 			(at 341.63 160.02 0)
 			(effects
 				(font
@@ -40831,7 +40913,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED54")
+					(reference "LED65")
 					(unit 1)
 				)
 			)
@@ -41120,7 +41202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 257.81 0)
 			(effects
 				(font
@@ -41176,7 +41258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cdcb9d9-8925-43e7-9015-4274aac2e92a")
-		(property "Reference" "LED114"
+		(property "Reference" "LED104"
 			(at 406.4 267.97 0)
 			(effects
 				(font
@@ -41243,7 +41325,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED114")
+					(reference "LED104")
 					(unit 1)
 				)
 			)
@@ -41259,7 +41341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d078771-35bb-40b3-886f-0335b749f7e2")
-		(property "Reference" "LED48"
+		(property "Reference" "LED136"
 			(at 557.53 106.68 0)
 			(effects
 				(font
@@ -41326,7 +41408,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED48")
+					(reference "LED136")
 					(unit 1)
 				)
 			)
@@ -41541,7 +41623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5da2af08-ba51-4d60-be6f-c940303d13fe")
-		(property "Reference" "LED79"
+		(property "Reference" "LED42"
 			(at 471.17 186.69 0)
 			(effects
 				(font
@@ -41608,7 +41690,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED79")
+					(reference "LED42")
 					(unit 1)
 				)
 			)
@@ -41690,7 +41772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eb54601-6bc1-4c06-9a90-6bb3a6cea314")
-		(property "Reference" "LED16"
+		(property "Reference" "LED99"
 			(at 384.81 53.34 0)
 			(effects
 				(font
@@ -41757,7 +41839,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED16")
+					(reference "LED99")
 					(unit 1)
 				)
 			)
@@ -41773,7 +41855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ed04910-b3f9-4d33-b52e-4ecf1cdaa039")
-		(property "Reference" "LED51"
+		(property "Reference" "LED29"
 			(at 320.04 186.69 0)
 			(effects
 				(font
@@ -41840,7 +41922,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED51")
+					(reference "LED29")
 					(unit 1)
 				)
 			)
@@ -41856,7 +41938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f45dc6e-61c4-4ce9-837b-86f46621f84f")
-		(property "Reference" "LED35"
+		(property "Reference" "LED14"
 			(at 427.99 80.01 0)
 			(effects
 				(font
@@ -41923,7 +42005,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED35")
+					(reference "LED14")
 					(unit 1)
 				)
 			)
@@ -42007,7 +42089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5faddf72-a0b1-4eed-9b0b-f381ec9a2f66")
-		(property "Reference" "LED47"
+		(property "Reference" "LED13"
 			(at 557.53 80.01 0)
 			(effects
 				(font
@@ -42074,7 +42156,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED47")
+					(reference "LED13")
 					(unit 1)
 				)
 			)
@@ -42156,7 +42238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60266dd9-f5ad-423e-91fc-9d1d26e58dac")
-		(property "Reference" "LED49"
+		(property "Reference" "LED5"
 			(at 320.04 133.35 0)
 			(effects
 				(font
@@ -42223,7 +42305,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED49")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -42441,7 +42523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60b3ac31-8089-43a6-9120-4b1856f4ab2c")
-		(property "Reference" "LED103"
+		(property "Reference" "LED117"
 			(at 341.63 294.64 0)
 			(effects
 				(font
@@ -42508,7 +42590,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED103")
+					(reference "LED117")
 					(unit 1)
 				)
 			)
@@ -42590,7 +42672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60d0cdf9-4bec-48a3-8cf6-736ed46298e7")
-		(property "Reference" "LED145"
+		(property "Reference" "LED4"
 			(at 320.04 355.6 0)
 			(effects
 				(font
@@ -42657,7 +42739,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED145")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -42682,7 +42764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 149.86 0)
 			(effects
 				(font
@@ -42813,7 +42895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 149.86 0)
 			(effects
 				(font
@@ -42869,7 +42951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63380e0b-5c42-43f2-bc5a-ec95c33c3f79")
-		(property "Reference" "LED20"
+		(property "Reference" "LED51"
 			(at 471.17 53.34 0)
 			(effects
 				(font
@@ -42936,7 +43018,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED20")
+					(reference "LED51")
 					(unit 1)
 				)
 			)
@@ -43029,7 +43111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 284.48 0)
 			(effects
 				(font
@@ -43144,6 +43226,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 109.22 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "652955b6-7435-4411-8524-ae22083353eb")
+		(property "Reference" "R1"
+			(at 109.22 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 109.22 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 109.22 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07afa91b-4736-46e7-82e6-161eba836e95")
+		)
+		(pin "2"
+			(uuid "81d44239-ddc5-4ae2-a976-bfe31dd661c2")
+		)
+		(instances
+			(project ""
+				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 356.87 74.93 180)
 		(unit 1)
@@ -43219,7 +43369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "656c764a-3dbe-4970-a49d-1100202c37aa")
-		(property "Reference" "LED127"
+		(property "Reference" "LED79"
 			(at 471.17 294.64 0)
 			(effects
 				(font
@@ -43286,7 +43436,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED127")
+					(reference "LED79")
 					(unit 1)
 				)
 			)
@@ -43447,7 +43597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 337.82 0)
 			(effects
 				(font
@@ -43503,7 +43653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6784fba4-95f6-473f-810d-e1e3e5ceb539")
-		(property "Reference" "LED98"
+		(property "Reference" "LED102"
 			(at 320.04 267.97 0)
 			(effects
 				(font
@@ -43570,7 +43720,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED98")
+					(reference "LED102")
 					(unit 1)
 				)
 			)
@@ -43586,7 +43736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67c14065-210a-4c29-a2b8-fd29965ed498")
-		(property "Reference" "LED109"
+		(property "Reference" "LED44"
 			(at 384.81 241.3 0)
 			(effects
 				(font
@@ -43653,7 +43803,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED109")
+					(reference "LED44")
 					(unit 1)
 				)
 			)
@@ -43737,7 +43887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a7efd7-e7bb-489d-b58f-00b57a5b0ae5")
-		(property "Reference" "LED139"
+		(property "Reference" "LED76"
 			(at 535.94 294.64 0)
 			(effects
 				(font
@@ -43804,7 +43954,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED139")
+					(reference "LED76")
 					(unit 1)
 				)
 			)
@@ -44018,7 +44168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6920727f-c4ff-4d74-ba04-453a2108616c")
-		(property "Reference" "LED46"
+		(property "Reference" "LED25"
 			(at 535.94 106.68 0)
 			(effects
 				(font
@@ -44085,7 +44235,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED46")
+					(reference "LED25")
 					(unit 1)
 				)
 			)
@@ -44303,7 +44453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6acf3e0e-0f72-482a-a9bb-a775e5aadb95")
-		(property "Reference" "LED134"
+		(property "Reference" "LED140"
 			(at 514.35 267.97 0)
 			(effects
 				(font
@@ -44370,7 +44520,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED134")
+					(reference "LED140")
 					(unit 1)
 				)
 			)
@@ -44733,7 +44883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 203.2 0)
 			(effects
 				(font
@@ -44789,7 +44939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cf1b1d7-ca78-4a36-b7f4-9dd8d6c6ffe3")
-		(property "Reference" "LED123"
+		(property "Reference" "LED43"
 			(at 449.58 294.64 0)
 			(effects
 				(font
@@ -44856,7 +45006,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED123")
+					(reference "LED43")
 					(unit 1)
 				)
 			)
@@ -44872,7 +45022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d810af0-7266-406f-9f76-c1853531bd84")
-		(property "Reference" "LED94"
+		(property "Reference" "LED132"
 			(at 557.53 160.02 0)
 			(effects
 				(font
@@ -44939,7 +45089,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED94")
+					(reference "LED132")
 					(unit 1)
 				)
 			)
@@ -44955,7 +45105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e3c4ac7-719d-4dd7-8ac2-fbfa4c048c83")
-		(property "Reference" "LED33"
+		(property "Reference" "LED38"
 			(at 406.4 80.01 0)
 			(effects
 				(font
@@ -45022,7 +45172,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED33")
+					(reference "LED38")
 					(unit 1)
 				)
 			)
@@ -45106,7 +45256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ea935c1-4608-4ef5-a518-b5f7fb3429e8")
-		(property "Reference" "LED76"
+		(property "Reference" "LED6"
 			(at 449.58 213.36 0)
 			(effects
 				(font
@@ -45173,7 +45323,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED76")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -45189,7 +45339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f25eecb-1920-4502-87f6-dd713ce30086")
-		(property "Reference" "LED107"
+		(property "Reference" "LED20"
 			(at 363.22 294.64 0)
 			(effects
 				(font
@@ -45256,7 +45406,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED107")
+					(reference "LED20")
 					(unit 1)
 				)
 			)
@@ -45272,7 +45422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f366761-b921-425f-a4e3-b523a5ea2f7d")
-		(property "Reference" "LED56"
+		(property "Reference" "LED89"
 			(at 341.63 213.36 0)
 			(effects
 				(font
@@ -45339,7 +45489,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED56")
+					(reference "LED89")
 					(unit 1)
 				)
 			)
@@ -46040,7 +46190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 123.19 0)
 			(effects
 				(font
@@ -46105,7 +46255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 69.85 0)
 			(effects
 				(font
@@ -46161,7 +46311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73572e2a-1d54-42e4-9822-5ad5cafaf4b7")
-		(property "Reference" "LED133"
+		(property "Reference" "LED128"
 			(at 514.35 241.3 0)
 			(effects
 				(font
@@ -46228,7 +46378,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED133")
+					(reference "LED128")
 					(unit 1)
 				)
 			)
@@ -46253,7 +46403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 203.2 0)
 			(effects
 				(font
@@ -46384,7 +46534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 69.85 0)
 			(effects
 				(font
@@ -46585,7 +46735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 203.2 0)
 			(effects
 				(font
@@ -46775,7 +46925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "781b06f5-1882-4981-99d3-75f571a248a2")
-		(property "Reference" "LED126"
+		(property "Reference" "LED67"
 			(at 471.17 267.97 0)
 			(effects
 				(font
@@ -46842,7 +46992,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED126")
+					(reference "LED67")
 					(unit 1)
 				)
 			)
@@ -46933,7 +47083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 149.86 0)
 			(effects
 				(font
@@ -46989,7 +47139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "791783ea-e1f0-432b-9b7f-4baa462702e7")
-		(property "Reference" "LED85"
+		(property "Reference" "LED48"
 			(at 514.35 133.35 0)
 			(effects
 				(font
@@ -47056,7 +47206,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED85")
+					(reference "LED48")
 					(unit 1)
 				)
 			)
@@ -47149,7 +47299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 149.86 0)
 			(effects
 				(font
@@ -47214,7 +47364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 43.18 0)
 			(effects
 				(font
@@ -47270,7 +47420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a15b8ea-55cb-4ab3-a0f8-73642291b557")
-		(property "Reference" "LED21"
+		(property "Reference" "LED39"
 			(at 492.76 53.34 0)
 			(effects
 				(font
@@ -47337,7 +47487,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED21")
+					(reference "LED39")
 					(unit 1)
 				)
 			)
@@ -47577,7 +47727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 43.18 0)
 			(effects
 				(font
@@ -47975,7 +48125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 60.96 49.53 90)
 			(effects
 				(font
@@ -48041,7 +48191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 96.52 0)
 			(effects
 				(font
@@ -48238,7 +48388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 69.85 0)
 			(effects
 				(font
@@ -48294,7 +48444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80b72527-5c65-472c-bfff-61bf9cbe5799")
-		(property "Reference" "LED1"
+		(property "Reference" "LED45"
 			(at 320.04 26.67 0)
 			(effects
 				(font
@@ -48361,7 +48511,7 @@
 		(instances
 			(project ""
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED1")
+					(reference "LED45")
 					(unit 1)
 				)
 			)
@@ -48386,7 +48536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 149.86 0)
 			(effects
 				(font
@@ -48442,7 +48592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8102b466-584d-444e-a7b1-610a86e47fb5")
-		(property "Reference" "LED17"
+		(property "Reference" "LED87"
 			(at 406.4 53.34 0)
 			(effects
 				(font
@@ -48509,7 +48659,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED17")
+					(reference "LED87")
 					(unit 1)
 				)
 			)
@@ -48600,7 +48750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 69.85 0)
 			(effects
 				(font
@@ -48656,7 +48806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "823b2905-43f9-4bc4-bf7f-2fa2406e9618")
-		(property "Reference" "LED61"
+		(property "Reference" "LED131"
 			(at 384.81 133.35 0)
 			(effects
 				(font
@@ -48723,7 +48873,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED61")
+					(reference "LED131")
 					(unit 1)
 				)
 			)
@@ -49009,7 +49159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "838fbd49-655b-402c-96ad-b1c1d5885fda")
-		(property "Reference" "LED144"
+		(property "Reference" "LED16"
 			(at 557.53 321.31 0)
 			(effects
 				(font
@@ -49076,7 +49226,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED144")
+					(reference "LED16")
 					(unit 1)
 				)
 			)
@@ -49092,7 +49242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a8809d-0d53-44a7-a3b6-521a39f1cbb5")
-		(property "Reference" "LED26"
+		(property "Reference" "LED122"
 			(at 320.04 106.68 0)
 			(effects
 				(font
@@ -49159,7 +49309,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED26")
+					(reference "LED122")
 					(unit 1)
 				)
 			)
@@ -49175,7 +49325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "847f7ecb-e8cb-4343-8722-02fda892a696")
-		(property "Reference" "LED91"
+		(property "Reference" "LED96"
 			(at 535.94 186.69 0)
 			(effects
 				(font
@@ -49242,7 +49392,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED91")
+					(reference "LED96")
 					(unit 1)
 				)
 			)
@@ -49258,7 +49408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84aa4966-ba29-49ed-bc4b-9a6c52ac5fcb")
-		(property "Reference" "LED73"
+		(property "Reference" "LED118"
 			(at 449.58 133.35 0)
 			(effects
 				(font
@@ -49325,7 +49475,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED73")
+					(reference "LED118")
 					(unit 1)
 				)
 			)
@@ -49415,7 +49565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 257.81 0)
 			(effects
 				(font
@@ -49471,7 +49621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86919124-732c-4946-a44c-904f471321f3")
-		(property "Reference" "LED6"
+		(property "Reference" "LED10"
 			(at 427.99 26.67 0)
 			(effects
 				(font
@@ -49538,7 +49688,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED6")
+					(reference "LED10")
 					(unit 1)
 				)
 			)
@@ -49690,7 +49840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "878338d5-8e32-4cd7-b5a2-c8b9a14a0fa5")
-		(property "Reference" "LED50"
+		(property "Reference" "LED17"
 			(at 320.04 160.02 0)
 			(effects
 				(font
@@ -49757,7 +49907,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED50")
+					(reference "LED17")
 					(unit 1)
 				)
 			)
@@ -49773,7 +49923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "882246cc-6032-4bb7-8da7-b14977d94b61")
-		(property "Reference" "LED42"
+		(property "Reference" "LED73"
 			(at 492.76 106.68 0)
 			(effects
 				(font
@@ -49840,7 +49990,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED42")
+					(reference "LED73")
 					(unit 1)
 				)
 			)
@@ -49865,7 +50015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 203.2 0)
 			(effects
 				(font
@@ -49930,7 +50080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 257.81 0)
 			(effects
 				(font
@@ -50052,7 +50202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a0bc752-908f-405e-afd4-e72baa1eca0a")
-		(property "Reference" "LED110"
+		(property "Reference" "LED56"
 			(at 384.81 267.97 0)
 			(effects
 				(font
@@ -50119,7 +50269,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED110")
+					(reference "LED56")
 					(unit 1)
 				)
 			)
@@ -50135,7 +50285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a1960ef-afaa-4804-8d42-675defc16479")
-		(property "Reference" "LED19"
+		(property "Reference" "LED63"
 			(at 449.58 53.34 0)
 			(effects
 				(font
@@ -50202,7 +50352,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED19")
+					(reference "LED63")
 					(unit 1)
 				)
 			)
@@ -50284,7 +50434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a47b5f9-f8c2-4c0e-8315-ce38d14875d0")
-		(property "Reference" "LED68"
+		(property "Reference" "LED35"
 			(at 406.4 213.36 0)
 			(effects
 				(font
@@ -50351,7 +50501,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED68")
+					(reference "LED35")
 					(unit 1)
 				)
 			)
@@ -50964,7 +51114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e0a41d0-248a-4f6a-aa02-d079c68d05c0")
-		(property "Reference" "LED65"
+		(property "Reference" "LED71"
 			(at 406.4 133.35 0)
 			(effects
 				(font
@@ -51031,7 +51181,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED65")
+					(reference "LED71")
 					(unit 1)
 				)
 			)
@@ -51047,7 +51197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f75b307-348c-4e9c-9aba-069cbb68be36")
-		(property "Reference" "LED111"
+		(property "Reference" "LED68"
 			(at 384.81 294.64 0)
 			(effects
 				(font
@@ -51114,7 +51264,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED111")
+					(reference "LED68")
 					(unit 1)
 				)
 			)
@@ -51139,7 +51289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 203.2 0)
 			(effects
 				(font
@@ -51204,7 +51354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 176.53 0)
 			(effects
 				(font
@@ -51326,7 +51476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90a38c4a-1eee-4cbb-b52b-d957fb175bf1")
-		(property "Reference" "LED5"
+		(property "Reference" "LED69"
 			(at 406.4 26.67 0)
 			(effects
 				(font
@@ -51393,7 +51543,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED5")
+					(reference "LED69")
 					(unit 1)
 				)
 			)
@@ -51418,7 +51568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 284.48 0)
 			(effects
 				(font
@@ -51674,7 +51824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "922f880c-89a9-4ff6-9ab4-6e8c7467cd4a")
-		(property "Reference" "LED102"
+		(property "Reference" "LED105"
 			(at 341.63 267.97 0)
 			(effects
 				(font
@@ -51741,7 +51891,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED102")
+					(reference "LED105")
 					(unit 1)
 				)
 			)
@@ -51900,7 +52050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 257.81 0)
 			(effects
 				(font
@@ -52033,7 +52183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 43.18 0)
 			(effects
 				(font
@@ -52098,7 +52248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 311.15 0)
 			(effects
 				(font
@@ -52365,7 +52515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 284.48 0)
 			(effects
 				(font
@@ -52421,7 +52571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "966c5045-90d3-4ea4-95dc-db3e5bdd73d5")
-		(property "Reference" "LED119"
+		(property "Reference" "LED138"
 			(at 427.99 294.64 0)
 			(effects
 				(font
@@ -52488,7 +52638,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED119")
+					(reference "LED138")
 					(unit 1)
 				)
 			)
@@ -52504,7 +52654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9670d104-d39f-457a-acae-bfd5015e2efa")
-		(property "Reference" "LED86"
+		(property "Reference" "LED36"
 			(at 514.35 160.02 0)
 			(effects
 				(font
@@ -52571,7 +52721,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED86")
+					(reference "LED36")
 					(unit 1)
 				)
 			)
@@ -52587,7 +52737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d0de27-6657-4f3b-8bb0-6264acd85e05")
-		(property "Reference" "LED96"
+		(property "Reference" "LED143"
 			(at 557.53 213.36 0)
 			(effects
 				(font
@@ -52654,7 +52804,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED96")
+					(reference "LED143")
 					(unit 1)
 				)
 			)
@@ -52863,71 +53013,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 391.16 377.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a57d754-e6f5-4abf-b1dd-d03c48dfa51b")
-		(property "Reference" "#PWR0348"
-			(at 391.16 381 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 391.16 372.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 391.16 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2bb43a39-530a-4e1d-8015-6231671cb1c1")
-		)
-		(instances
-			(project "Transmi"
-				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "#PWR0348")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 492.76 154.94 90)
 		(unit 1)
@@ -53005,7 +53090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ad25cc9-6807-4099-8ac7-434deecf03fc")
-		(property "Reference" "LED122"
+		(property "Reference" "LED31"
 			(at 449.58 267.97 0)
 			(effects
 				(font
@@ -53072,7 +53157,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED122")
+					(reference "LED31")
 					(unit 1)
 				)
 			)
@@ -53097,7 +53182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 149.86 0)
 			(effects
 				(font
@@ -53153,7 +53238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc92dfa-3bae-4c2e-909c-45709365f74e")
-		(property "Reference" "LED131"
+		(property "Reference" "LED127"
 			(at 492.76 294.64 0)
 			(effects
 				(font
@@ -53220,7 +53305,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED131")
+					(reference "LED127")
 					(unit 1)
 				)
 			)
@@ -53245,7 +53330,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 87.63 44.45 90)
+			(at 90.678 42.164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53301,7 +53386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d1399c1-f8ba-4cf0-8ab7-a921a971595c")
-		(property "Reference" "LED108"
+		(property "Reference" "LED32"
 			(at 363.22 321.31 0)
 			(effects
 				(font
@@ -53368,7 +53453,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED108")
+					(reference "LED32")
 					(unit 1)
 				)
 			)
@@ -53634,7 +53719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4ad35f-1804-42e6-b3a6-4843c48614f1")
-		(property "Reference" "LED100"
+		(property "Reference" "LED93"
 			(at 320.04 321.31 0)
 			(effects
 				(font
@@ -53701,7 +53786,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED100")
+					(reference "LED93")
 					(unit 1)
 				)
 			)
@@ -53726,7 +53811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 69.85 0)
 			(effects
 				(font
@@ -53791,7 +53876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 229.87 0)
 			(effects
 				(font
@@ -53856,7 +53941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 311.15 0)
 			(effects
 				(font
@@ -53912,7 +53997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0b98401-5a8e-47b2-893a-3e899ccd3bc8")
-		(property "Reference" "LED125"
+		(property "Reference" "LED55"
 			(at 471.17 241.3 0)
 			(effects
 				(font
@@ -53979,7 +54064,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED125")
+					(reference "LED55")
 					(unit 1)
 				)
 			)
@@ -54004,7 +54089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 176.53 0)
 			(effects
 				(font
@@ -54069,7 +54154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 176.53 0)
 			(effects
 				(font
@@ -54266,7 +54351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 311.15 0)
 			(effects
 				(font
@@ -54598,7 +54683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 203.2 0)
 			(effects
 				(font
@@ -54865,7 +54950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 123.19 0)
 			(effects
 				(font
@@ -54930,7 +55015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 229.87 0)
 			(effects
 				(font
@@ -55054,7 +55139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a57266d1-a75f-4680-80e4-881b10b9d649")
-		(property "Reference" "LED60"
+		(property "Reference" "LED137"
 			(at 363.22 213.36 0)
 			(effects
 				(font
@@ -55121,7 +55206,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED60")
+					(reference "LED137")
 					(unit 1)
 				)
 			)
@@ -55146,7 +55231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 229.87 0)
 			(effects
 				(font
@@ -55211,7 +55296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 96.52 0)
 			(effects
 				(font
@@ -55333,7 +55418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9af0ca3-900f-40e3-9d58-fc8c13cbbfcd")
-		(property "Reference" "LED84"
+		(property "Reference" "LED147"
 			(at 492.76 213.36 0)
 			(effects
 				(font
@@ -55400,7 +55485,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED84")
+					(reference "LED147")
 					(unit 1)
 				)
 			)
@@ -55425,7 +55510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 337.82 0)
 			(effects
 				(font
@@ -55481,7 +55566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa0706d3-7a43-422b-9b15-d797ade506e6")
-		(property "Reference" "LED45"
+		(property "Reference" "LED37"
 			(at 535.94 80.01 0)
 			(effects
 				(font
@@ -55548,7 +55633,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED45")
+					(reference "LED37")
 					(unit 1)
 				)
 			)
@@ -55639,7 +55724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 176.53 0)
 			(effects
 				(font
@@ -55695,7 +55780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa756bfd-fe9b-4f6c-960b-0b6995bb28ea")
-		(property "Reference" "LED63"
+		(property "Reference" "LED95"
 			(at 384.81 186.69 0)
 			(effects
 				(font
@@ -55762,7 +55847,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED63")
+					(reference "LED95")
 					(unit 1)
 				)
 			)
@@ -55787,7 +55872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 229.87 0)
 			(effects
 				(font
@@ -56404,7 +56489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae0cf812-cc66-4087-9a5a-88fe4b515e23")
-		(property "Reference" "LED4"
+		(property "Reference" "LED57"
 			(at 384.81 26.67 0)
 			(effects
 				(font
@@ -56471,7 +56556,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED4")
+					(reference "LED57")
 					(unit 1)
 				)
 			)
@@ -56562,7 +56647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 337.82 0)
 			(effects
 				(font
@@ -56827,7 +56912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 229.87 0)
 			(effects
 				(font
@@ -57160,7 +57245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 69.85 0)
 			(effects
 				(font
@@ -57225,7 +57310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 311.15 0)
 			(effects
 				(font
@@ -57624,7 +57709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 284.48 0)
 			(effects
 				(font
@@ -57680,7 +57765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3737704-bce7-4eaa-843e-08c110f6f9bf")
-		(property "Reference" "LED115"
+		(property "Reference" "LED116"
 			(at 406.4 294.64 0)
 			(effects
 				(font
@@ -57747,7 +57832,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED115")
+					(reference "LED116")
 					(unit 1)
 				)
 			)
@@ -57972,7 +58057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 311.15 0)
 			(effects
 				(font
@@ -58360,7 +58445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b972a76b-5a40-4e70-aec9-a5ce5dd92f38")
-		(property "Reference" "LED78"
+		(property "Reference" "LED30"
 			(at 471.17 160.02 0)
 			(effects
 				(font
@@ -58427,7 +58512,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED78")
+					(reference "LED30")
 					(unit 1)
 				)
 			)
@@ -58520,7 +58605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 337.82 0)
 			(effects
 				(font
@@ -58719,7 +58804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 149.86 0)
 			(effects
 				(font
@@ -58974,7 +59059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be6d44f2-866c-4d6f-93f3-564048a89f35")
-		(property "Reference" "LED40"
+		(property "Reference" "LED97"
 			(at 471.17 106.68 0)
 			(effects
 				(font
@@ -59041,7 +59126,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED40")
+					(reference "LED97")
 					(unit 1)
 				)
 			)
@@ -59057,7 +59142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be96b623-5096-46df-abbb-f8eea11c2645")
-		(property "Reference" "LED24"
+		(property "Reference" "LED3"
 			(at 557.53 53.34 0)
 			(effects
 				(font
@@ -59124,7 +59209,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED24")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -59140,7 +59225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf3eda46-fe0f-48ca-840b-439c8baa850f")
-		(property "Reference" "LED58"
+		(property "Reference" "LED113"
 			(at 363.22 160.02 0)
 			(effects
 				(font
@@ -59207,7 +59292,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED58")
+					(reference "LED113")
 					(unit 1)
 				)
 			)
@@ -59232,7 +59317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 123.19 0)
 			(effects
 				(font
@@ -59363,7 +59448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 149.86 0)
 			(effects
 				(font
@@ -59487,7 +59572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0b7233c-58e8-47c4-a697-165a98c8cbc7")
-		(property "Reference" "LED14"
+		(property "Reference" "LED94"
 			(at 341.63 53.34 0)
 			(effects
 				(font
@@ -59554,7 +59639,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED14")
+					(reference "LED94")
 					(unit 1)
 				)
 			)
@@ -59645,7 +59730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 372.11 0)
 			(effects
 				(font
@@ -59898,7 +59983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2d6a56c-272a-41f7-aa42-84fcfcf8d3db")
-		(property "Reference" "LED67"
+		(property "Reference" "LED47"
 			(at 406.4 186.69 0)
 			(effects
 				(font
@@ -59965,7 +60050,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED67")
+					(reference "LED47")
 					(unit 1)
 				)
 			)
@@ -60173,7 +60258,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 52.07 90)
+		(at 125.73 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -60182,7 +60267,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3e47b8b-8c66-47ce-9819-23ee58499cde")
 		(property "Reference" "#PWR0131"
-			(at 143.51 52.07 0)
+			(at 129.54 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60191,7 +60276,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 135.89 52.0699 90)
+			(at 121.92 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60200,7 +60285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 52.07 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60209,7 +60294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 52.07 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60218,7 +60303,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 52.07 0)
+			(at 125.73 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60247,7 +60332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4053f0f-233e-4a72-a276-b1aca379c2ae")
-		(property "Reference" "LED143"
+		(property "Reference" "LED28"
 			(at 557.53 294.64 0)
 			(effects
 				(font
@@ -60314,7 +60399,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED143")
+					(reference "LED28")
 					(unit 1)
 				)
 			)
@@ -60339,7 +60424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 96.52 0)
 			(effects
 				(font
@@ -60404,7 +60489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 284.48 0)
 			(effects
 				(font
@@ -60528,7 +60613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5241290-88d9-4e8f-aa08-81bd58f3912e")
-		(property "Reference" "LED28"
+		(property "Reference" "LED98"
 			(at 341.63 106.68 0)
 			(effects
 				(font
@@ -60595,7 +60680,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED28")
+					(reference "LED98")
 					(unit 1)
 				)
 			)
@@ -60747,7 +60832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c65d3e93-f8ac-48fa-a492-a72c816ebf36")
-		(property "Reference" "LED129"
+		(property "Reference" "LED103"
 			(at 492.76 241.3 0)
 			(effects
 				(font
@@ -60814,7 +60899,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED129")
+					(reference "LED103")
 					(unit 1)
 				)
 			)
@@ -60830,7 +60915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6c25cda-dc53-4645-ae10-4fa92850503c")
-		(property "Reference" "LED70"
+		(property "Reference" "LED11"
 			(at 427.99 160.02 0)
 			(effects
 				(font
@@ -60897,7 +60982,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED70")
+					(reference "LED11")
 					(unit 1)
 				)
 			)
@@ -60922,7 +61007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 149.86 0)
 			(effects
 				(font
@@ -60987,7 +61072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 257.81 0)
 			(effects
 				(font
@@ -61043,7 +61128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7a1d40f-4d12-4e4e-9960-02694f3d5728")
-		(property "Reference" "LED7"
+		(property "Reference" "LED9"
 			(at 449.58 26.67 0)
 			(effects
 				(font
@@ -61110,7 +61195,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED7")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -61460,7 +61545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9e78938-bdbd-4391-86e9-6417bef926c5")
-		(property "Reference" "LED105"
+		(property "Reference" "LED141"
 			(at 363.22 241.3 0)
 			(effects
 				(font
@@ -61527,7 +61612,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED105")
+					(reference "LED141")
 					(unit 1)
 				)
 			)
@@ -61681,7 +61766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 257.81 0)
 			(effects
 				(font
@@ -61746,7 +61831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 176.53 0)
 			(effects
 				(font
@@ -61945,7 +62030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 257.81 0)
 			(effects
 				(font
@@ -62067,7 +62152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfe2eb69-660e-4d83-b346-89a58e2c8ae6")
-		(property "Reference" "LED82"
+		(property "Reference" "LED78"
 			(at 492.76 160.02 0)
 			(effects
 				(font
@@ -62134,7 +62219,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED82")
+					(reference "LED78")
 					(unit 1)
 				)
 			)
@@ -62496,7 +62581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 284.48 0)
 			(effects
 				(font
@@ -62561,7 +62646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 43.18 0)
 			(effects
 				(font
@@ -62617,7 +62702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d344e792-e5a4-4289-8e4e-17b9ed585f80")
-		(property "Reference" "LED52"
+		(property "Reference" "LED41"
 			(at 320.04 213.36 0)
 			(effects
 				(font
@@ -62684,7 +62769,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED52")
+					(reference "LED41")
 					(unit 1)
 				)
 			)
@@ -62766,7 +62851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3dc1a2d-c83e-41d2-bffc-9902115f33ec")
-		(property "Reference" "LED118"
+		(property "Reference" "LED126"
 			(at 427.99 267.97 0)
 			(effects
 				(font
@@ -62833,7 +62918,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED118")
+					(reference "LED126")
 					(unit 1)
 				)
 			)
@@ -62858,7 +62943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 149.86 0)
 			(effects
 				(font
@@ -63182,7 +63267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6b48b74-013e-4f87-b28b-b0eeb57adc6d")
-		(property "Reference" "LED39"
+		(property "Reference" "LED109"
 			(at 471.17 80.01 0)
 			(effects
 				(font
@@ -63249,7 +63334,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED39")
+					(reference "LED109")
 					(unit 1)
 				)
 			)
@@ -63265,7 +63350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d2b886-6ecf-42c8-b89e-f3e32ef84a82")
-		(property "Reference" "LED101"
+		(property "Reference" "LED114"
 			(at 341.63 241.3 0)
 			(effects
 				(font
@@ -63332,7 +63417,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED101")
+					(reference "LED114")
 					(unit 1)
 				)
 			)
@@ -63348,7 +63433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d81766-130d-4a60-96b1-0716bdf37a8a")
-		(property "Reference" "LED62"
+		(property "Reference" "LED107"
 			(at 384.81 160.02 0)
 			(effects
 				(font
@@ -63415,7 +63500,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED62")
+					(reference "LED107")
 					(unit 1)
 				)
 			)
@@ -63640,7 +63725,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 229.87 0)
 			(effects
 				(font
@@ -63764,7 +63849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d91be3e4-5e9e-4d1b-9f1d-3439f128216e")
-		(property "Reference" "LED95"
+		(property "Reference" "LED144"
 			(at 557.53 186.69 0)
 			(effects
 				(font
@@ -63831,7 +63916,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED95")
+					(reference "LED144")
 					(unit 1)
 				)
 			)
@@ -63856,7 +63941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 229.87 0)
 			(effects
 				(font
@@ -64045,7 +64130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da58e58c-368b-4fa3-9489-ba658ff9afe4")
-		(property "Reference" "LED74"
+		(property "Reference" "LED106"
 			(at 449.58 160.02 0)
 			(effects
 				(font
@@ -64112,7 +64197,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED74")
+					(reference "LED106")
 					(unit 1)
 				)
 			)
@@ -64194,7 +64279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db0a2d73-da79-468b-bb9a-85a13184d361")
-		(property "Reference" "LED92"
+		(property "Reference" "LED108"
 			(at 535.94 213.36 0)
 			(effects
 				(font
@@ -64261,7 +64346,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED92")
+					(reference "LED108")
 					(unit 1)
 				)
 			)
@@ -64543,7 +64628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc698f11-fbfd-4469-9a32-a4852371e55a")
-		(property "Reference" "LED23"
+		(property "Reference" "LED15"
 			(at 535.94 53.34 0)
 			(effects
 				(font
@@ -64610,7 +64695,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED23")
+					(reference "LED15")
 					(unit 1)
 				)
 			)
@@ -64626,7 +64711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcee6d05-8100-493f-94d7-7175cd05d36f")
-		(property "Reference" "LED130"
+		(property "Reference" "LED115"
 			(at 492.76 267.97 0)
 			(effects
 				(font
@@ -64693,7 +64778,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED130")
+					(reference "LED115")
 					(unit 1)
 				)
 			)
@@ -64718,7 +64803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 311.15 0)
 			(effects
 				(font
@@ -64844,7 +64929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddb80f7b-4d85-473f-a366-5065a27701f2")
-		(property "Reference" "LED3"
+		(property "Reference" "LED21"
 			(at 363.22 26.67 0)
 			(effects
 				(font
@@ -64911,7 +64996,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED3")
+					(reference "LED21")
 					(unit 1)
 				)
 			)
@@ -64927,7 +65012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee01506-de6d-460c-926b-f2d92f56568e")
-		(property "Reference" "LED112"
+		(property "Reference" "LED80"
 			(at 384.81 321.31 0)
 			(effects
 				(font
@@ -64994,7 +65079,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED112")
+					(reference "LED80")
 					(unit 1)
 				)
 			)
@@ -65019,7 +65104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 337.82 0)
 			(effects
 				(font
@@ -65075,7 +65160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee8c4fa-b9b9-47a0-a62e-6e436cf3a9bc")
-		(property "Reference" "LED87"
+		(property "Reference" "LED24"
 			(at 514.35 186.69 0)
 			(effects
 				(font
@@ -65142,7 +65227,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED87")
+					(reference "LED24")
 					(unit 1)
 				)
 			)
@@ -65301,7 +65386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 149.86 0)
 			(effects
 				(font
@@ -65488,7 +65573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bcc95e-190e-4e76-9036-2e83f645eb47")
-		(property "Reference" "LED77"
+		(property "Reference" "LED18"
 			(at 471.17 133.35 0)
 			(effects
 				(font
@@ -65555,7 +65640,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED77")
+					(reference "LED18")
 					(unit 1)
 				)
 			)
@@ -65571,7 +65656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0dafb1c-a288-443e-8f8f-63925e55b5de")
-		(property "Reference" "LED90"
+		(property "Reference" "LED84"
 			(at 535.94 160.02 0)
 			(effects
 				(font
@@ -65638,7 +65723,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED90")
+					(reference "LED84")
 					(unit 1)
 				)
 			)
@@ -65663,7 +65748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 229.87 0)
 			(effects
 				(font
@@ -65788,7 +65873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e19c55ff-2eae-4f1e-8dff-b0f137bbbcd7")
-		(property "Reference" "LED30"
+		(property "Reference" "LED74"
 			(at 363.22 106.68 0)
 			(effects
 				(font
@@ -65855,7 +65940,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED30")
+					(reference "LED74")
 					(unit 1)
 				)
 			)
@@ -65871,7 +65956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d38be4-6344-416a-8778-1af417fca687")
-		(property "Reference" "LED99"
+		(property "Reference" "LED81"
 			(at 320.04 294.64 0)
 			(effects
 				(font
@@ -65938,7 +66023,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED99")
+					(reference "LED81")
 					(unit 1)
 				)
 			)
@@ -65963,7 +66048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 96.52 0)
 			(effects
 				(font
@@ -66164,7 +66249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 123.19 0)
 			(effects
 				(font
@@ -66288,7 +66373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3002e1f-9944-4ca5-823a-af257ab2d698")
-		(property "Reference" "LED57"
+		(property "Reference" "LED101"
 			(at 363.22 133.35 0)
 			(effects
 				(font
@@ -66355,7 +66440,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED57")
+					(reference "LED101")
 					(unit 1)
 				)
 			)
@@ -66514,7 +66599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 337.82 0)
 			(effects
 				(font
@@ -66579,7 +66664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 337.82 0)
 			(effects
 				(font
@@ -66635,7 +66720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e420ca09-9dee-41e6-9d32-91c5acf7627b")
-		(property "Reference" "LED10"
+		(property "Reference" "LED46"
 			(at 514.35 26.67 0)
 			(effects
 				(font
@@ -66702,7 +66787,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED10")
+					(reference "LED46")
 					(unit 1)
 				)
 			)
@@ -66861,7 +66946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 284.48 0)
 			(effects
 				(font
@@ -66994,7 +67079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 69.85 0)
 			(effects
 				(font
@@ -67292,7 +67377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6939365-90fa-4b4b-8334-00da8070b8c5")
-		(property "Reference" "LED8"
+		(property "Reference" "LED22"
 			(at 471.17 26.67 0)
 			(effects
 				(font
@@ -67359,7 +67444,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED8")
+					(reference "LED22")
 					(unit 1)
 				)
 			)
@@ -67450,7 +67535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 372.11 0)
 			(effects
 				(font
@@ -67581,7 +67666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 176.53 0)
 			(effects
 				(font
@@ -67637,7 +67722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e836d90c-6ad8-4b2a-b539-a2a0099640f2")
-		(property "Reference" "LED121"
+		(property "Reference" "LED19"
 			(at 449.58 241.3 0)
 			(effects
 				(font
@@ -67704,7 +67789,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED121")
+					(reference "LED19")
 					(unit 1)
 				)
 			)
@@ -67998,7 +68083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 123.19 0)
 			(effects
 				(font
@@ -68197,7 +68282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 542.29 43.18 0)
 			(effects
 				(font
@@ -68596,7 +68681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 203.2 0)
 			(effects
 				(font
@@ -68717,7 +68802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc023ee-6c7b-4ffc-b153-62ea36f87aca")
-		(property "Reference" "LED142"
+		(property "Reference" "LED40"
 			(at 557.53 267.97 0)
 			(effects
 				(font
@@ -68784,7 +68869,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED142")
+					(reference "LED40")
 					(unit 1)
 				)
 			)
@@ -68809,7 +68894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 520.7 257.81 0)
 			(effects
 				(font
@@ -68874,7 +68959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 499.11 284.48 0)
 			(effects
 				(font
@@ -68939,7 +69024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 369.57 372.11 0)
 			(effects
 				(font
@@ -69408,7 +69493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 391.16 284.48 0)
 			(effects
 				(font
@@ -69539,7 +69624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 284.48 0)
 			(effects
 				(font
@@ -69604,7 +69689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 412.75 229.87 0)
 			(effects
 				(font
@@ -69869,7 +69954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 434.34 96.52 0)
 			(effects
 				(font
@@ -69934,7 +70019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 477.52 176.53 0)
 			(effects
 				(font
@@ -70131,7 +70216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 326.39 69.85 0)
 			(effects
 				(font
@@ -70196,7 +70281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 455.93 43.18 0)
 			(effects
 				(font
@@ -70261,7 +70346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 284.48 0)
 			(effects
 				(font
@@ -70459,7 +70544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 563.88 203.2 0)
 			(effects
 				(font
@@ -70515,7 +70600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5b71f31-70a1-4b73-85ae-8e1cc538e2a3")
-		(property "Reference" "LED36"
+		(property "Reference" "LED2"
 			(at 427.99 106.68 0)
 			(effects
 				(font
@@ -70582,7 +70667,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED36")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -70807,7 +70892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "VCC"
 			(at 347.98 337.82 0)
 			(effects
 				(font
@@ -70863,7 +70948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7295f57-814a-446a-a83b-84f03fd0d4b5")
-		(property "Reference" "LED146"
+		(property "Reference" "LED135"
 			(at 341.63 355.6 0)
 			(effects
 				(font
@@ -70930,7 +71015,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED146")
+					(reference "LED135")
 					(unit 1)
 				)
 			)
@@ -71003,72 +71088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 378.46 377.19 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f833b778-def7-4667-8851-d24b1198b600")
-		(property "Reference" "#PWR0347"
-			(at 378.46 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Earth"
-			(at 378.46 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 378.46 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 378.46 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 378.46 377.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f028c21-bb86-43d3-a85c-520e45922eb0")
-		)
-		(instances
-			(project "Transmi"
-				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "#PWR0347")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TransmiLib:WS2812B-2020")
 		(at 535.94 142.24 0)
 		(unit 1)
@@ -71078,7 +71097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8f5e72a-e67d-4eac-b55b-7e7587e958fa")
-		(property "Reference" "LED89"
+		(property "Reference" "LED72"
 			(at 535.94 133.35 0)
 			(effects
 				(font
@@ -71145,7 +71164,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED89")
+					(reference "LED72")
 					(unit 1)
 				)
 			)
@@ -71227,7 +71246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9b963e9-b612-4984-8cf5-add77dcaa6ef")
-		(property "Reference" "LED15"
+		(property "Reference" "LED111"
 			(at 363.22 53.34 0)
 			(effects
 				(font
@@ -71294,7 +71313,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED15")
+					(reference "LED111")
 					(unit 1)
 				)
 			)
@@ -71446,7 +71465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbadf73e-031d-4034-b3ec-d6874475c12d")
-		(property "Reference" "LED25"
+		(property "Reference" "LED134"
 			(at 320.04 80.01 0)
 			(effects
 				(font
@@ -71513,7 +71532,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED25")
+					(reference "LED134")
 					(unit 1)
 				)
 			)
@@ -71926,7 +71945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feb1d498-e112-4dd3-911a-c599339aaf72")
-		(property "Reference" "LED43"
+		(property "Reference" "LED61"
 			(at 514.35 80.01 0)
 			(effects
 				(font
@@ -71993,7 +72012,7 @@
 		(instances
 			(project "Transmi"
 				(path "/256b45a8-1947-417b-a821-dbf427da92d8"
-					(reference "LED43")
+					(reference "LED61")
 					(unit 1)
 				)
 			)

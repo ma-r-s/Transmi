@@ -1,4 +1,4 @@
-26253127730552321
+26256653509531516
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103460,6 +103460,13 @@ igbt diode module
 25
 25
 TransmiLib
+C0402
+
+
+0
+2
+2
+TransmiLib
 CRYSTAL-SMD_4P-L2.5-W2.0-BL
 
 
@@ -103487,6 +103494,13 @@ FC-135R_L3.2-W1.5
 0
 2
 2
+TransmiLib
+LED-SMD_4P-L2.0-W2.0-TL_WS2812B-2020
+
+
+0
+4
+4
 TransmiLib
 QFN-56_L7.0-W7.0-P0.40-TL-EP4.0
 
